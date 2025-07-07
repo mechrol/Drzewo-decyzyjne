@@ -56,20 +56,39 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       throw new Error('Hasło musi mieć co najmniej 6 znaków');
     }
 
-    // Valid access passwords - in real app this would be checked against database
-    const validPasswords = ['admin123', 'aitribes2024', 'livegood123'];
+    // Valid access passwords - including demo123 for demonstration
+    const validPasswords = ['admin123', 'aitribes2025', 'livegood123', 'homohumanicus', 'demo123'];
 
     if (!validPasswords.includes(password)) {
       setIsLoading(false);
       throw new Error('Nieprawidłowe hasło dostępu. Hasło zostanie przyznane po spełnieniu warunku koniecznego (rejestracja w AI Tribes) i warunku wystarczającego (rejestracja w Live Good). Skontaktuj się z administratorem.');
     }
 
-    const userData: User = {
-      id: Math.random().toString(36).substr(2, 9),
-      email: 'user@aitribes.com',
-      username: 'Członek AI Tribes & Live Good',
-      createdAt: new Date().toISOString()
-    };
+    // Create user data based on password type
+    let userData: User;
+    
+    if (password === 'homohumanicus') {
+      userData = {
+        id: Math.random().toString(36).substr(2, 9),
+        email: 'demo@homohumanicus.com',
+        username: 'Użytkownik HomoHumanicus',
+        createdAt: new Date().toISOString()
+      };
+    } else if (password === 'demo123') {
+      userData = {
+        id: Math.random().toString(36).substr(2, 9),
+        email: 'demo@example.com',
+        username: 'Użytkownik Demo',
+        createdAt: new Date().toISOString()
+      };
+    } else {
+      userData = {
+        id: Math.random().toString(36).substr(2, 9),
+        email: 'user@aitribes.com',
+        username: 'Członek AI Tribes & Live Good',
+        createdAt: new Date().toISOString()
+      };
+    }
 
     setUser(userData);
     

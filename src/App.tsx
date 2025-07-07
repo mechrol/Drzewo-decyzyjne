@@ -2,6 +2,8 @@ import React from 'react'
 import { AuthProvider, useAuth } from './contexts/AuthContext'
 import { GameBoard } from './components/GameBoard'
 import { LoginPage } from './components/LoginPage'
+import { CopyrightNotice } from './components/CopyrightNotice'
+import { LegalProtectionWrapper } from './components/LegalProtectionWrapper'
 
 function AppContent() {
   const { user, isLoading } = useAuth();
@@ -17,7 +19,12 @@ function AppContent() {
     );
   }
 
-  return user ? <GameBoard /> : <LoginPage />;
+  return (
+    <LegalProtectionWrapper>
+      {user ? <GameBoard /> : <LoginPage />}
+      <CopyrightNotice />
+    </LegalProtectionWrapper>
+  );
 }
 
 function App() {

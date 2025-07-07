@@ -58,6 +58,42 @@ export const sampleTopics: Topic[] = [
         score: 0
       }
     ]
+  },
+  {
+    id: 'marketing',
+    name: 'Marketing Mix 4P',
+    description: 'Zoptymalizuj strategię marketingową poprzez właściwe połączenie elementów 4P',
+    targetScore: 90,
+    branches: [
+      {
+        id: 'distribution',
+        name: 'Dystrybucja',
+        factors: [],
+        isComplete: false,
+        score: 0
+      },
+      {
+        id: 'price',
+        name: 'Cena',
+        factors: [],
+        isComplete: false,
+        score: 0
+      },
+      {
+        id: 'product-marketing',
+        name: 'Produkt',
+        factors: [],
+        isComplete: false,
+        score: 0
+      },
+      {
+        id: 'promotion',
+        name: 'Promocja',
+        factors: [],
+        isComplete: false,
+        score: 0
+      }
+    ]
   }
 ];
 
@@ -105,4 +141,30 @@ export const businessFactors: Factor[] = [
   { id: 'revenue', name: 'Przychody', type: 'effect', value: 20, description: 'Zyski finansowe' },
   { id: 'growth', name: 'Wzrost', type: 'effect', value: 18, description: 'Ekspansja biznesowa' },
   { id: 'satisfaction', name: 'Satysfakcja', type: 'effect', value: 15, description: 'Zadowolenie klientów' }
+];
+
+export const marketingFactors: Factor[] = [
+  // Parts - Dystrybucja
+  { id: 'retail-stores', name: 'Sklepy detaliczne', type: 'part', value: 14, description: 'Punkty sprzedaży stacjonarnej' },
+  { id: 'online-channels', name: 'Kanały online', type: 'part', value: 16, description: 'Platformy sprzedaży internetowej' },
+  { id: 'distributors', name: 'Dystrybutorzy', type: 'part', value: 12, description: 'Pośrednicy w łańcuchu dostaw' },
+  { id: 'logistics', name: 'Logistyka', type: 'part', value: 13, description: 'System transportu i magazynowania' },
+  
+  // Wholes - Cena
+  { id: 'pricing-strategy', name: 'Strategia cenowa', type: 'whole', value: 20, description: 'Kompleksowe podejście do ustalania cen' },
+  { id: 'cost-structure', name: 'Struktura kosztów', type: 'whole', value: 18, description: 'Całościowy model kosztowy' },
+  { id: 'value-proposition', name: 'Propozycja wartości', type: 'whole', value: 22, description: 'Całościowa oferta wartości dla klienta' },
+  { id: 'market-positioning', name: 'Pozycjonowanie rynkowe', type: 'whole', value: 19, description: 'Miejsce marki na rynku' },
+  
+  // Causes - Produkt
+  { id: 'customer-needs', name: 'Potrzeby klientów', type: 'cause', value: 25, description: 'Podstawowe wymagania rynku' },
+  { id: 'market-research', name: 'Badania rynku', type: 'cause', value: 20, description: 'Analiza preferencji konsumentów' },
+  { id: 'innovation-drive', name: 'Dążenie do innowacji', type: 'cause', value: 23, description: 'Motywacja do tworzenia nowości' },
+  { id: 'competition', name: 'Konkurencja', type: 'cause', value: 18, description: 'Presja konkurencyjna na rynku' },
+  
+  // Effects - Promocja
+  { id: 'brand-awareness', name: 'Świadomość marki', type: 'effect', value: 22, description: 'Rozpoznawalność marki na rynku' },
+  { id: 'customer-engagement', name: 'Zaangażowanie klientów', type: 'effect', value: 20, description: 'Poziom interakcji z marką' },
+  { id: 'sales-growth', name: 'Wzrost sprzedaży', type: 'effect', value: 24, description: 'Zwiększenie obrotów handlowych' },
+  { id: 'market-share', name: 'Udział w rynku', type: 'effect', value: 18, description: 'Pozycja konkurencyjna' }
 ];

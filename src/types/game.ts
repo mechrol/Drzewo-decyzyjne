@@ -18,8 +18,8 @@ export interface Topic {
   id: string;
   name: string;
   description: string;
-  branches: Branch[];
   targetScore: number;
+  branches: Branch[];
 }
 
 export interface GameState {

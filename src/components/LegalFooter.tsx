@@ -14,9 +14,9 @@ export const LegalFooter: React.FC<LegalFooterProps> = ({ onOpenModal }) => {
   };
 
   return (
-    <footer className="bg-black/80 backdrop-blur-xl border-t border-violet-500/30 shadow-2xl">
-      <div className="container mx-auto px-4 py-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
+    <footer className="bg-black/90 backdrop-blur-xl border-t border-violet-500/30 shadow-2xl">
+      <div className="container mx-auto px-4 py-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center">
           
           {/* Left - HomoHumanicus Branding */}
           <div className="flex flex-col items-center md:items-start space-y-1">

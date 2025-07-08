@@ -56,36 +56,34 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       throw new Error('Hasło musi mieć co najmniej 6 znaków');
     }
 
-    // Valid access passwords - including demo123 for demonstration
-    const validPasswords = ['admin123', 'aitribes2025', 'livegood123', 'homohumanicus', 'demo123'];
+    // Restricted access - only specific passwords allowed
+    // Hidden admin password: admin369
+    const validPasswords = ['admin369']; // Only admin password for now
+    
+    // AI Tribes demo passwords will be added here after community registration
+    // Example: 'aitribes_demo_2025', 'livegood_premium_2025'
 
     if (!validPasswords.includes(password)) {
       setIsLoading(false);
-      throw new Error('Nieprawidłowe hasło dostępu. Hasło zostanie przyznane po spełnieniu warunku koniecznego (rejestracja w AI Tribes) i warunku wystarczającego (rejestracja w Live Good). Skontaktuj się z administratorem.');
+      throw new Error('Nieprawidłowe hasło dostępu. Hasło demo zostanie przyznane automatycznie po rejestracji w społeczności AI Tribes. Kliknij przycisk "Dołącz do AI Tribes" po lewej stronie, zarejestruj się, a następnie wróć tutaj z otrzymanym hasłem.');
     }
 
     // Create user data based on password type
     let userData: User;
     
-    if (password === 'homohumanicus') {
+    if (password === 'admin369') {
       userData = {
         id: Math.random().toString(36).substr(2, 9),
-        email: 'demo@homohumanicus.com',
-        username: 'Użytkownik HomoHumanicus',
-        createdAt: new Date().toISOString()
-      };
-    } else if (password === 'demo123') {
-      userData = {
-        id: Math.random().toString(36).substr(2, 9),
-        email: 'demo@example.com',
-        username: 'Użytkownik Demo',
+        email: 'admin@homohumanicus.com',
+        username: 'Administrator',
         createdAt: new Date().toISOString()
       };
     } else {
+      // For future AI Tribes demo users
       userData = {
         id: Math.random().toString(36).substr(2, 9),
-        email: 'user@aitribes.com',
-        username: 'Członek AI Tribes & Live Good',
+        email: 'demo@aitribes.com',
+        username: 'Członek AI Tribes',
         createdAt: new Date().toISOString()
       };
     }

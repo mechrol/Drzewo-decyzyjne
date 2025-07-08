@@ -2,26 +2,82 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom animations for 2025 */
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+/* RTL Support for Arabic */
+[dir="rtl"] {
+  direction: rtl;
 }
 
-@keyframes glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.3); }
-  50% { box-shadow: 0 0 30px rgba(139, 92, 246, 0.6); }
+[dir="rtl"] .text-left {
+  text-align: right;
 }
 
-.animate-float {
-  animation: float 3s ease-in-out infinite;
+[dir="rtl"] .text-right {
+  text-align: left;
 }
 
-.animate-glow {
-  animation: glow 2s ease-in-out infinite;
+[dir="rtl"] .ml-auto {
+  margin-left: 0;
+  margin-right: auto;
 }
 
-/* Scrollbar styling for 2025 */
+[dir="rtl"] .mr-auto {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+/* Arabic Font Support */
+[lang="ar"] {
+  font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+}
+
+/* Hindi Font Support */
+[lang="hi"] {
+  font-family: 'Segoe UI', 'Noto Sans Devanagari', 'Arial Unicode MS', sans-serif;
+}
+
+/* Smooth transitions for language switching */
+* {
+  transition: direction 0.3s ease;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  [dir="rtl"] .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0f0f23;
+  color: white;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -32,10 +88,49 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(139, 92, 246, 0.5);
+  background: rgba(139, 92, 246, 0.3);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(139, 92, 246, 0.7);
+  background: rgba(139, 92, 246, 0.5);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Mobile touch improvements */
+@media (max-width: 768px) {
+  button, .cursor-pointer {
+    -webkit-tap-highlight-color: rgba(139, 92, 246, 0.2);
+  }
+  
+  /* Prevent zoom on input focus */
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .bg-black\/40 {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .border-violet-500\/30 {
+    border-color: rgba(139, 92, 246, 0.6);
+  }
 }

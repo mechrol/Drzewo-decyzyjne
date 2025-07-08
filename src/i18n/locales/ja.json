@@ -1,0 +1,115 @@
+{
+  "app": {
+    "title": "決定木",
+    "subtitle": "戦略ゲーム",
+    "description": "🎮 様々なビジネスや生態系シナリオで要因配置を最適化することで戦略的思考スキルを向上させましょう",
+    "poweredBy": "Powered by HomoHumanicus Technology"
+  },
+  "auth": {
+    "accessConditions": "アクセス条件",
+    "demoAccess": "デモアクセス",
+    "fullAccess": "フルアクセス",
+    "free": "無料",
+    "premium": "プレミアム",
+    "aiTribes": "AI TRIBES",
+    "premiumSubscription": "プレミアム購読",
+    "howToGetPassword": "パスワードの取得方法",
+    "loginTitle": "ゲームアクセス",
+    "loginSubtitle": "AI Tribes登録後に受け取ったパスワードを入力してください",
+    "demoPassword": "デモパスワード",
+    "passwordPlaceholder": "AI Tribesから受け取ったパスワードを入力...",
+    "login": "ログイン",
+    "logging": "ログイン中...",
+    "noPassword": "パスワードをお持ちでない場合は、左側でAI Tribesに登録してください。",
+    "secureLogin": "🔒 安全なログイン",
+    "quickAccess": "⚡ クイックアクセス",
+    "demoVersion": "🎮 デモ版",
+    "joinAiTribes": "AI Tribesに参加",
+    "buyPremium": "プレミアムを購入",
+    "logout": "ログアウト",
+    "demoPasswordInfo": "🔐 AI Tribesコミュニティに参加後、デモパスワードが自動的に付与されます：",
+    "aiTribesDescription": "登録によりAI Tribesコミュニティに参加してください。登録後、ゲームのデモパスワードが自動的に送られます。",
+    "premiumDescription": "プレミアム購読を購入して、制限なしでゲームのすべての機能に即座にアクセスできます。",
+    "registrationNote": "下のボタンをクリックした後、AI Tribesに登録すると、デモパスワードが自動的に付与されます",
+    "steps": {
+      "clickButton": "上の「AI Tribesに参加」ボタンをクリック",
+      "register": "AI Tribesコミュニティに登録",
+      "receivePassword": "登録後に自動的にデモパスワードを受け取る",
+      "returnAndLogin": "ここに戻って受け取ったパスワードでログイン"
+    }
+  },
+  "game": {
+    "chooseScenario": "ゲームシナリオを選択",
+    "scenarioDescription": "🎯 各シナリオは独特な戦略的挑戦を提供します。要因配置を最適化してスコアを最大化しましょう！",
+    "startGame": "ゲーム開始",
+    "howToPlay": "プレイ方法は？",
+    "gameGoal": "🎯 ゲーム目標",
+    "scoring": "🏆 スコアリングシステム",
+    "features": "ゲーム機能",
+    "ranking": "ランキング",
+    "security": "セキュリティ",
+    "fastGame": "高速ゲーム",
+    "achievements": "実績",
+    "rankingDesc": "他のプレイヤーと競争",
+    "securityDesc": "完全なデータ保護",
+    "fastGameDesc": "パフォーマンス最適化",
+    "achievementsDesc": "報酬システム",
+    "goals": {
+      "dragFactors": "• 要因を適切な枝にドラッグ",
+      "fourFactors": "• 各枝には4つの要因が必要",
+      "balanceParts": "• 部分と全体のバランス",
+      "balanceCauses": "• 原因と結果のバランス"
+    },
+    "points": {
+      "correctFactor": "• 正しい要因ごとに+10ポイント",
+      "balancedBranch": "• バランスの取れた枝で+50ポイント",
+      "completeScenario": "• シナリオ完了で+100ポイント",
+      "maxScore": "• 最高スコア：270ポイント"
+    }
+  },
+  "themes": {
+    "forest": {
+      "name": "森林生態系",
+      "description": "森林の環境要因を最適化"
+    },
+    "startup": {
+      "name": "テックスタートアップ",
+      "description": "技術スタートアップ戦略を構築"
+    },
+    "marketing": {
+      "name": "マーケティングミックス4P",
+      "description": "最適なマーケティングミックスを作成"
+    }
+  },
+  "legal": {
+    "eula": "EULA",
+    "licenseAgreement": "ライセンス契約",
+    "endUserLicense": "エンドユーザーライセンス契約",
+    "mainProvisions": "主要条項",
+    "terms": "利用規約",
+    "privacy": "プライバシー",
+    "license": "ライセンス",
+    "security": "セキュリティ",
+    "copyright": "著作権",
+    "termsDesc": "ゲーム使用規則",
+    "privacyDesc": "プライバシーポリシー",
+    "licenseDesc": "ライセンス条項",
+    "securityDesc": "セキュリティポリシー",
+    "acceptanceTitle": "条項の受諾",
+    "acceptanceDesc": "ゲームにログインすることで、上記のすべての条項を自動的に受諾し、それらを遵守することを約束します。",
+    "copyrightProtected": "著作権で保護",
+    "provisions": {
+      "nonExclusive": "ゲームは非独占ライセンスで提供",
+      "noModification": "ソースコードの変更は禁止",
+      "gdprProtection": "ユーザーデータはGDPRに従って保護",
+      "revocable": "違反の場合、ライセンスは取り消される可能性"
+    }
+  },
+  "errors": {
+    "allFieldsRequired": "すべてのフィールドが必要です",
+    "passwordTooShort": "パスワードは少なくとも6文字である必要があります",
+    "invalidPassword": "無効なアクセスパスワード。AI Tribesコミュニティに登録後、デモパスワードが自動的に付与されます。左側の「AI Tribesに参加」ボタンをクリックして登録し、受け取ったパスワードでここに戻ってください。",
+    "validEmail": "有効なメールアドレスを入力してください"
+  },
+  "loading": "読み込み中..."
+}

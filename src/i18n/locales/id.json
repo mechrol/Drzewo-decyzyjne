@@ -1,0 +1,115 @@
+{
+  "app": {
+    "title": "POHON KEPUTUSAN",
+    "subtitle": "PERMAINAN STRATEGIS",
+    "description": "🎮 Kembangkan keterampilan berpikir strategis Anda dengan mengoptimalkan penempatan faktor dalam berbagai skenario bisnis dan ekologi",
+    "poweredBy": "Didukung oleh Teknologi HomoHumanicus"
+  },
+  "auth": {
+    "accessConditions": "KONDISI AKSES",
+    "demoAccess": "AKSES DEMO",
+    "fullAccess": "AKSES PENUH",
+    "free": "GRATIS",
+    "premium": "PREMIUM",
+    "aiTribes": "AI TRIBES",
+    "premiumSubscription": "LANGGANAN PREMIUM",
+    "howToGetPassword": "CARA MENDAPATKAN KATA SANDI",
+    "loginTitle": "AKSES PERMAINAN",
+    "loginSubtitle": "Masukkan kata sandi yang diterima setelah mendaftar dengan AI Tribes",
+    "demoPassword": "KATA SANDI DEMO",
+    "passwordPlaceholder": "Masukkan kata sandi yang diterima dari AI Tribes...",
+    "login": "MASUK",
+    "logging": "SEDANG MASUK...",
+    "noPassword": "Tidak punya kata sandi? Daftar dengan AI Tribes di sisi kiri.",
+    "secureLogin": "🔒 Login aman",
+    "quickAccess": "⚡ Akses cepat",
+    "demoVersion": "🎮 Versi demo",
+    "joinAiTribes": "Bergabung dengan AI Tribes",
+    "buyPremium": "Beli Premium",
+    "logout": "Keluar",
+    "demoPasswordInfo": "🔐 Kata sandi demo akan diberikan secara otomatis setelah bergabung dengan komunitas AI Tribes:",
+    "aiTribesDescription": "Bergabunglah dengan komunitas AI Tribes melalui pendaftaran. Setelah pendaftaran, Anda akan secara otomatis menerima kata sandi demo untuk permainan.",
+    "premiumDescription": "Beli langganan premium dan dapatkan akses instan ke semua fitur permainan tanpa batasan.",
+    "registrationNote": "Setelah mengklik tombol di bawah, daftar dengan AI Tribes, dan kata sandi demo akan diberikan secara otomatis kepada Anda",
+    "steps": {
+      "clickButton": "Klik tombol \"Bergabung dengan AI Tribes\" di atas",
+      "register": "Daftar dengan komunitas AI Tribes",
+      "receivePassword": "Terima kata sandi demo secara otomatis setelah pendaftaran",
+      "returnAndLogin": "Kembali ke sini dan masuk menggunakan kata sandi yang diterima"
+    }
+  },
+  "game": {
+    "chooseScenario": "PILIH SKENARIO PERMAINAN",
+    "scenarioDescription": "🎯 Setiap skenario menawarkan tantangan strategis yang unik. Optimalkan penempatan faktor dan maksimalkan skor Anda!",
+    "startGame": "MULAI PERMAINAN",
+    "howToPlay": "CARA BERMAIN?",
+    "gameGoal": "🎯 TUJUAN PERMAINAN",
+    "scoring": "🏆 PENILAIAN",
+    "features": "FITUR PERMAINAN",
+    "ranking": "Peringkat",
+    "security": "Keamanan",
+    "fastGame": "Permainan cepat",
+    "achievements": "Pencapaian",
+    "rankingDesc": "Bersaing dengan pemain lain",
+    "securityDesc": "Perlindungan data penuh",
+    "fastGameDesc": "Optimisasi performa",
+    "achievementsDesc": "Sistem penghargaan",
+    "goals": {
+      "dragFactors": "• Seret faktor ke cabang yang sesuai",
+      "fourFactors": "• Setiap cabang membutuhkan 4 faktor",
+      "balanceParts": "• Seimbangkan bagian dan keseluruhan",
+      "balanceCauses": "• Seimbangkan sebab dan akibat"
+    },
+    "points": {
+      "correctFactor": "• +10 poin untuk setiap faktor yang benar",
+      "balancedBranch": "• +50 poin untuk cabang yang seimbang",
+      "completeScenario": "• +100 poin untuk menyelesaikan skenario",
+      "maxScore": "• Skor maksimum: 270 poin"
+    }
+  },
+  "themes": {
+    "forest": {
+      "name": "Ekosistem Hutan",
+      "description": "Optimalkan faktor lingkungan di hutan"
+    },
+    "startup": {
+      "name": "Startup Teknologi",
+      "description": "Bangun strategi startup teknologi"
+    },
+    "marketing": {
+      "name": "Marketing Mix 4P",
+      "description": "Buat bauran pemasaran yang optimal"
+    }
+  },
+  "legal": {
+    "eula": "EULA",
+    "licenseAgreement": "PERJANJIAN LISENSI",
+    "endUserLicense": "Perjanjian Lisensi Pengguna Akhir",
+    "mainProvisions": "Ketentuan utama",
+    "terms": "Syarat",
+    "privacy": "Privasi",
+    "license": "Lisensi",
+    "security": "Keamanan",
+    "copyright": "Hak Cipta",
+    "termsDesc": "Aturan penggunaan permainan",
+    "privacyDesc": "Kebijakan privasi",
+    "licenseDesc": "Ketentuan lisensi",
+    "securityDesc": "Kebijakan keamanan",
+    "acceptanceTitle": "Penerimaan syarat",
+    "acceptanceDesc": "Dengan masuk ke permainan, Anda secara otomatis menerima semua syarat di atas dan berkomitmen untuk mematuhinya.",
+    "copyrightProtected": "Dilindungi hak cipta",
+    "provisions": {
+      "nonExclusive": "Permainan disediakan di bawah lisensi non-eksklusif",
+      "noModification": "Modifikasi kode sumber dilarang",
+      "gdprProtection": "Data pengguna dilindungi sesuai dengan GDPR",
+      "revocable": "Lisensi dapat dicabut jika terjadi pelanggaran"
+    }
+  },
+  "errors": {
+    "allFieldsRequired": "Semua bidang wajib diisi",
+    "passwordTooShort": "Kata sandi harus minimal 6 karakter",
+    "invalidPassword": "Kata sandi akses tidak valid. Kata sandi demo akan diberikan secara otomatis setelah mendaftar dengan komunitas AI Tribes. Klik tombol \"Bergabung dengan AI Tribes\" di sisi kiri, daftar, lalu kembali ke sini dengan kata sandi yang diterima.",
+    "validEmail": "Masukkan alamat email yang valid"
+  },
+  "loading": "Memuat..."
+}

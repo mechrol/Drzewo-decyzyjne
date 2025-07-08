@@ -1,0 +1,115 @@
+{
+  "app": {
+    "title": "ALBERO DECISIONALE",
+    "subtitle": "GIOCO STRATEGICO",
+    "description": "🎮 Sviluppa le tue abilità di pensiero strategico ottimizzando il posizionamento dei fattori in vari scenari commerciali ed ecologici",
+    "poweredBy": "Powered by HomoHumanicus Technology"
+  },
+  "auth": {
+    "accessConditions": "CONDIZIONI DI ACCESSO",
+    "demoAccess": "ACCESSO DEMO",
+    "fullAccess": "ACCESSO COMPLETO",
+    "free": "GRATUITO",
+    "premium": "PREMIUM",
+    "aiTribes": "AI TRIBES",
+    "premiumSubscription": "ABBONAMENTO PREMIUM",
+    "howToGetPassword": "COME OTTENERE LA PASSWORD",
+    "loginTitle": "ACCESSO AL GIOCO",
+    "loginSubtitle": "Inserisci la password ricevuta dopo la registrazione ad AI Tribes",
+    "demoPassword": "PASSWORD DEMO",
+    "passwordPlaceholder": "Inserisci la password ricevuta da AI Tribes...",
+    "login": "ACCEDI",
+    "logging": "ACCESSO IN CORSO...",
+    "noPassword": "Non hai una password? Registrati ad AI Tribes sul lato sinistro.",
+    "secureLogin": "🔒 Accesso sicuro",
+    "quickAccess": "⚡ Accesso rapido",
+    "demoVersion": "🎮 Versione demo",
+    "joinAiTribes": "Unisciti ad AI Tribes",
+    "buyPremium": "Acquista Premium",
+    "logout": "Disconnetti",
+    "demoPasswordInfo": "🔐 La password demo verrà concessa automaticamente dopo essersi uniti alla comunità AI Tribes:",
+    "aiTribesDescription": "Unisciti alla comunità AI Tribes tramite registrazione. Dopo la registrazione, riceverai automaticamente una password demo per il gioco.",
+    "premiumDescription": "Acquista un abbonamento premium e ottieni accesso istantaneo a tutte le funzionalità del gioco senza limitazioni.",
+    "registrationNote": "Dopo aver cliccato il pulsante qui sotto, registrati ad AI Tribes, e la password demo ti verrà concessa automaticamente",
+    "steps": {
+      "clickButton": "Clicca il pulsante \"Unisciti ad AI Tribes\" sopra",
+      "register": "Registrati nella comunità AI Tribes",
+      "receivePassword": "Ricevi la password demo automaticamente dopo la registrazione",
+      "returnAndLogin": "Torna qui e accedi usando la password ricevuta"
+    }
+  },
+  "game": {
+    "chooseScenario": "SCEGLI SCENARIO DI GIOCO",
+    "scenarioDescription": "🎯 Ogni scenario offre sfide strategiche uniche. Ottimizza il posizionamento dei fattori e massimizza il tuo punteggio!",
+    "startGame": "INIZIA GIOCO",
+    "howToPlay": "COME GIOCARE?",
+    "gameGoal": "🎯 OBIETTIVO DEL GIOCO",
+    "scoring": "🏆 SISTEMA DI PUNTEGGIO",
+    "features": "CARATTERISTICHE DEL GIOCO",
+    "ranking": "Classifica",
+    "security": "Sicurezza",
+    "fastGame": "Gioco veloce",
+    "achievements": "Risultati",
+    "rankingDesc": "Compete con altri giocatori",
+    "securityDesc": "Protezione completa dei dati",
+    "fastGameDesc": "Ottimizzazione delle prestazioni",
+    "achievementsDesc": "Sistema di ricompense",
+    "goals": {
+      "dragFactors": "• Trascina i fattori sui rami appropriati",
+      "fourFactors": "• Ogni ramo ha bisogno di 4 fattori",
+      "balanceParts": "• Bilancia parti e interi",
+      "balanceCauses": "• Bilancia cause ed effetti"
+    },
+    "points": {
+      "correctFactor": "• +10 punti per ogni fattore corretto",
+      "balancedBranch": "• +50 punti per ramo bilanciato",
+      "completeScenario": "• +100 punti per completare lo scenario",
+      "maxScore": "• Punteggio massimo: 270 punti"
+    }
+  },
+  "themes": {
+    "forest": {
+      "name": "Ecosistema Forestale",
+      "description": "Ottimizza i fattori ambientali nella foresta"
+    },
+    "startup": {
+      "name": "Startup Tech",
+      "description": "Costruisci una strategia di startup tecnologico"
+    },
+    "marketing": {
+      "name": "Marketing Mix 4P",
+      "description": "Crea un mix di marketing ottimale"
+    }
+  },
+  "legal": {
+    "eula": "EULA",
+    "licenseAgreement": "ACCORDO DI LICENZA",
+    "endUserLicense": "Accordo di Licenza Utente Finale",
+    "mainProvisions": "Disposizioni principali",
+    "terms": "Termini",
+    "privacy": "Privacy",
+    "license": "Licenza",
+    "security": "Sicurezza",
+    "copyright": "Diritti d'autore",
+    "termsDesc": "Regole di utilizzo del gioco",
+    "privacyDesc": "Politica sulla privacy",
+    "licenseDesc": "Termini di licenza",
+    "securityDesc": "Politica di sicurezza",
+    "acceptanceTitle": "Accettazione dei termini",
+    "acceptanceDesc": "Accedendo al gioco accetti automaticamente tutti i termini sopra indicati e ti impegni a rispettarli.",
+    "copyrightProtected": "Protetto da copyright",
+    "provisions": {
+      "nonExclusive": "Il gioco è fornito sotto licenza non esclusiva",
+      "noModification": "È vietata la modifica del codice sorgente",
+      "gdprProtection": "I dati dell'utente sono protetti in conformità al GDPR",
+      "revocable": "La licenza può essere revocata in caso di violazione"
+    }
+  },
+  "errors": {
+    "allFieldsRequired": "Tutti i campi sono obbligatori",
+    "passwordTooShort": "La password deve essere di almeno 6 caratteri",
+    "invalidPassword": "Password di accesso non valida. La password demo verrà concessa automaticamente dopo la registrazione nella comunità AI Tribes. Clicca il pulsante \"Unisciti ad AI Tribes\" sul lato sinistro, registrati, poi torna qui con la password ricevuta.",
+    "validEmail": "Inserisci un indirizzo email valido"
+  },
+  "loading": "Caricamento..."
+}

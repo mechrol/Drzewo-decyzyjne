@@ -1,0 +1,115 @@
+{
+  "app": {
+    "title": "ENTSCHEIDUNGSBAUM",
+    "subtitle": "STRATEGISCHES SPIEL",
+    "description": "🎮 Entwickeln Sie Ihre strategischen Denkfähigkeiten durch die Optimierung der Faktorenplatzierung in verschiedenen Geschäfts- und Umweltszenarien",
+    "poweredBy": "Powered by HomoHumanicus Technology"
+  },
+  "auth": {
+    "accessConditions": "ZUGANGSVORAUSSETZUNGEN",
+    "demoAccess": "DEMO-ZUGANG",
+    "fullAccess": "VOLLZUGANG",
+    "free": "KOSTENLOS",
+    "premium": "PREMIUM",
+    "aiTribes": "AI TRIBES",
+    "premiumSubscription": "PREMIUM-ABONNEMENT",
+    "howToGetPassword": "WIE BEKOMME ICH DAS PASSWORT",
+    "loginTitle": "SPIELZUGANG",
+    "loginSubtitle": "Geben Sie das Passwort ein, das Sie nach der Registrierung bei AI Tribes erhalten haben",
+    "demoPassword": "DEMO-PASSWORT",
+    "passwordPlaceholder": "Passwort von AI Tribes eingeben...",
+    "login": "ANMELDEN",
+    "logging": "ANMELDUNG...",
+    "noPassword": "Kein Passwort? Registrieren Sie sich bei AI Tribes auf der linken Seite.",
+    "secureLogin": "🔒 Sichere Anmeldung",
+    "quickAccess": "⚡ Schneller Zugang",
+    "demoVersion": "🎮 Demo-Version",
+    "joinAiTribes": "AI Tribes beitreten",
+    "buyPremium": "Premium kaufen",
+    "logout": "Abmelden",
+    "demoPasswordInfo": "🔐 Das Demo-Passwort wird automatisch nach dem Beitritt zur AI Tribes-Community gewährt:",
+    "aiTribesDescription": "Treten Sie der AI Tribes-Community durch Registrierung bei. Nach der Registrierung erhalten Sie automatisch ein Demo-Passwort für das Spiel.",
+    "premiumDescription": "Kaufen Sie ein Premium-Abonnement und erhalten Sie sofortigen Zugang zu allen Spielfunktionen ohne Einschränkungen.",
+    "registrationNote": "Nach dem Klicken auf die Schaltfläche unten registrieren Sie sich bei AI Tribes, und das Demo-Passwort wird Ihnen automatisch gewährt",
+    "steps": {
+      "clickButton": "Klicken Sie auf die Schaltfläche \"AI Tribes beitreten\" oben",
+      "register": "Registrieren Sie sich in der AI Tribes-Community",
+      "receivePassword": "Erhalten Sie das Demo-Passwort automatisch nach der Registrierung",
+      "returnAndLogin": "Kehren Sie hierher zurück und melden Sie sich mit dem erhaltenen Passwort an"
+    }
+  },
+  "game": {
+    "chooseScenario": "SPIELSZENARIO WÄHLEN",
+    "scenarioDescription": "🎯 Jedes Szenario bietet einzigartige strategische Herausforderungen. Optimieren Sie die Faktorenplatzierung und maximieren Sie Ihre Punktzahl!",
+    "startGame": "SPIEL STARTEN",
+    "howToPlay": "WIE SPIELT MAN?",
+    "gameGoal": "🎯 SPIELZIEL",
+    "scoring": "🏆 PUNKTESYSTEM",
+    "features": "SPIELFUNKTIONEN",
+    "ranking": "Rangliste",
+    "security": "Sicherheit",
+    "fastGame": "Schnelles Spiel",
+    "achievements": "Erfolge",
+    "rankingDesc": "Mit anderen Spielern konkurrieren",
+    "securityDesc": "Vollständiger Datenschutz",
+    "fastGameDesc": "Leistungsoptimierung",
+    "achievementsDesc": "Belohnungssystem",
+    "goals": {
+      "dragFactors": "• Ziehen Sie Faktoren zu den entsprechenden Ästen",
+      "fourFactors": "• Jeder Ast benötigt 4 Faktoren",
+      "balanceParts": "• Balancieren Sie Teile und Ganzes",
+      "balanceCauses": "• Balancieren Sie Ursachen und Wirkungen"
+    },
+    "points": {
+      "correctFactor": "• +10 Punkte für jeden korrekten Faktor",
+      "balancedBranch": "• +50 Punkte für ausgewogenen Ast",
+      "completeScenario": "• +100 Punkte für abgeschlossenes Szenario",
+      "maxScore": "• Maximale Punktzahl: 270 Punkte"
+    }
+  },
+  "themes": {
+    "forest": {
+      "name": "Waldökosystem",
+      "description": "Optimieren Sie Umweltfaktoren im Wald"
+    },
+    "startup": {
+      "name": "Tech-Startup",
+      "description": "Bauen Sie eine Technologie-Startup-Strategie auf"
+    },
+    "marketing": {
+      "name": "Marketing-Mix 4P",
+      "description": "Erstellen Sie einen optimalen Marketing-Mix"
+    }
+  },
+  "legal": {
+    "eula": "EULA",
+    "licenseAgreement": "LIZENZVEREINBARUNG",
+    "endUserLicense": "Endbenutzer-Lizenzvereinbarung",
+    "mainProvisions": "Hauptbestimmungen",
+    "terms": "Bedingungen",
+    "privacy": "Datenschutz",
+    "license": "Lizenz",
+    "security": "Sicherheit",
+    "copyright": "Urheberrecht",
+    "termsDesc": "Spielnutzungsregeln",
+    "privacyDesc": "Datenschutzrichtlinie",
+    "licenseDesc": "Lizenzbedingungen",
+    "securityDesc": "Sicherheitsrichtlinie",
+    "acceptanceTitle": "Bedingungen akzeptieren",
+    "acceptanceDesc": "Durch die Anmeldung im Spiel akzeptieren Sie automatisch alle oben genannten Bedingungen und verpflichten sich, diese einzuhalten.",
+    "copyrightProtected": "Urheberrechtlich geschützt",
+    "provisions": {
+      "nonExclusive": "Das Spiel wird unter nicht-exklusiver Lizenz bereitgestellt",
+      "noModification": "Die Änderung des Quellcodes ist verboten",
+      "gdprProtection": "Benutzerdaten sind gemäß DSGVO geschützt",
+      "revocable": "Die Lizenz kann bei Verletzung widerrufen werden"
+    }
+  },
+  "errors": {
+    "allFieldsRequired": "Alle Felder sind erforderlich",
+    "passwordTooShort": "Das Passwort muss mindestens 6 Zeichen lang sein",
+    "invalidPassword": "Ungültiges Zugangspasswort. Das Demo-Passwort wird automatisch nach der Registrierung in der AI Tribes-Community gewährt. Klicken Sie auf die Schaltfläche \"AI Tribes beitreten\" auf der linken Seite, registrieren Sie sich und kehren Sie dann mit dem erhaltenen Passwort hierher zurück.",
+    "validEmail": "Geben Sie eine gültige E-Mail-Adresse ein"
+  },
+  "loading": "Laden..."
+}

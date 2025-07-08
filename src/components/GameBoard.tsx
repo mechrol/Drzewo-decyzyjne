@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useAuth } from '../contexts/AuthContext';
-import { LogOut, Trophy, RotateCcw, Info, Shield } from 'lucide-react';
+import { LogOut, Trophy, RotateCcw, Info, Shield, Play } from 'lucide-react';
 import { GameTheme } from './GameTheme';
 import { LegalFooter } from './LegalFooter';
 import { LegalModal } from './LegalModal';
 import { HomoHumanicusLogo } from './HomoHumanicusLogo';
+import { LanguageSelector } from './LanguageSelector';
 
 export const GameBoard: React.FC = () => {
+  const { t } = useTranslation();
   const { logout } = useAuth();
   const [selectedTheme, setSelectedTheme] = useState<string | null>(null);
   const [legalModal, setLegalModal] = useState<{
@@ -20,23 +23,23 @@ export const GameBoard: React.FC = () => {
   const themes = [
     {
       id: 'forest',
-      name: 'Ekosystem Leśny',
+      name: t('themes.forest.name'),
       emoji: '🌲',
-      description: 'Optymalizuj czynniki środowiskowe w lesie',
+      description: t('themes.forest.description'),
       color: 'from-green-600 to-emerald-500'
     },
     {
       id: 'startup',
-      name: 'Startup Tech',
+      name: t('themes.startup.name'),
       emoji: '🚀',
-      description: 'Buduj strategię technologicznego startupu',
+      description: t('themes.startup.description'),
       color: 'from-blue-600 to-cyan-500'
     },
     {
       id: 'marketing',
-      name: 'Marketing Mix 4P',
+      name: t('themes.marketing.name'),
       emoji: '📈',
-      description: 'Twórz optymalny mix marketingowy',
+      description: t('themes.marketing.description'),
       color: 'from-purple-600 to-pink-500'
     }
   ];
@@ -79,119 +82,103 @@ export const GameBoard: React.FC = () => {
       <header className="relative z-10 bg-black/40 backdrop-blur-xl border-b border-violet-500/30">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-6">
+            <div className="flex items-center space-x-4 lg:space-x-6">
               {/* HomoHumanicus Logo */}
               <HomoHumanicusLogo size="sm" variant="horizontal" />
               
-              <div className="border-l border-violet-500/30 pl-6">
-                <div className="flex items-center space-x-4">
+              <div className="border-l border-violet-500/30 pl-4 lg:pl-6">
+                <div className="flex items-center space-x-3 lg:space-x-4">
                   <div className="relative">
-                    <Trophy className="w-10 h-10 text-yellow-400 animate-pulse" />
-                    <div className="absolute -top-1 -right-1 w-4 h-4 bg-yellow-400 rounded-full animate-ping"></div>
+                    <Trophy className="w-8 h-8 lg:w-10 lg:h-10 text-yellow-400 animate-pulse" />
+                    <div className="absolute -top-1 -right-1 w-3 h-3 lg:w-4 lg:h-4 bg-yellow-400 rounded-full animate-ping"></div>
                   </div>
                   <div>
-                    <h1 className="text-2xl font-black text-white bg-gradient-to-r from-white via-violet-200 to-white bg-clip-text text-transparent">
-                      DRZEWO DECYZYJNE
+                    <h1 className="text-lg sm:text-xl lg:text-2xl font-black text-white bg-gradient-to-r from-white via-violet-200 to-white bg-clip-text text-transparent">
+                      {t('app.title')}
                     </h1>
-                    <p className="text-violet-300 text-sm font-medium">Strategic Decision Game</p>
+                    <p className="text-violet-300 text-xs sm:text-sm font-medium">{t('app.subtitle')}</p>
                   </div>
                 </div>
               </div>
             </div>
             
             <div className="flex items-center space-x-3">
-              <div className="flex items-center space-x-2 text-violet-300">
+              {/* Language Selector */}
+              <LanguageSelector />
+              
+              <div className="hidden sm:flex items-center space-x-2 text-violet-300">
                 <Shield className="w-4 h-4" />
-                <span className="text-sm font-medium">Chronione prawem autorskim</span>
+                <span className="text-xs lg:text-sm font-medium">{t('legal.copyrightProtected')}</span>
               </div>
               <button
                 onClick={logout}
-                className="flex items-center space-x-2 px-4 py-2 bg-red-600/20 text-red-300 rounded-xl hover:bg-red-600/30 hover:text-red-200 transition-all duration-200 border border-red-500/30"
+                className="flex items-center space-x-2 px-3 lg:px-4 py-2 bg-red-600/20 text-red-300 rounded-xl hover:bg-red-600/30 hover:text-red-200 transition-all duration-200 border border-red-500/30 text-sm"
               >
                 <LogOut className="w-4 h-4" />
-                <span className="font-medium">Wyloguj</span>
+                <span className="hidden sm:inline font-medium">{t('auth.logout')}</span>
               </button>
             </div>
           </div>
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="relative z-10 container mx-auto px-4 py-8 flex-1">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-black text-white mb-4 bg-gradient-to-r from-white via-violet-200 to-white bg-clip-text text-transparent">
-            WYBIERZ SCENARIUSZ GRY
-          </h2>
-          <p className="text-xl text-violet-100 max-w-3xl mx-auto leading-relaxed font-medium">
-            🎯 Każdy scenariusz oferuje unikalne wyzwania strategiczne. 
-            Optymalizuj rozmieszczenie czynników i maksymalizuj swój wynik!
-          </p>
-        </div>
+      {/* Main Content - Mobile Optimized */}
+      <main className="relative z-10 flex-1 overflow-y-auto">
+        <div className="container mx-auto px-4 py-6 lg:py-8">
+          <div className="text-center mb-8 lg:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white mb-4 bg-gradient-to-r from-white via-violet-200 to-white bg-clip-text text-transparent">
+              {t('game.chooseScenario')}
+            </h2>
+            <p className="text-base sm:text-lg lg:text-xl text-violet-100 max-w-3xl mx-auto leading-relaxed font-medium px-4">
+              {t('game.scenarioDescription')}
+            </p>
+          </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {themes.map((theme) => (
-            <div
-              key={theme.id}
-              className="group bg-black/40 backdrop-blur-xl rounded-3xl p-8 border border-violet-500/30 hover:border-violet-400/50 transition-all duration-300 hover:scale-105 cursor-pointer shadow-2xl hover:shadow-violet-500/25"
-              onClick={() => setSelectedTheme(theme.id)}
-            >
-              <div className="text-center">
-                <div className={`w-20 h-20 bg-gradient-to-r ${theme.color} rounded-2xl flex items-center justify-center mx-auto mb-6 text-4xl shadow-lg group-hover:shadow-lg group-hover:scale-110 transition-all duration-300`}>
-                  {theme.emoji}
-                </div>
-                
-                <h3 className="text-2xl font-black text-white mb-4 group-hover:text-violet-200 transition-colors">
-                  {theme.name}
-                </h3>
-                
-                <p className="text-violet-200 mb-6 leading-relaxed font-medium">
-                  {theme.description}
-                </p>
-                
-                <div className={`inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r ${theme.color} text-white rounded-xl font-bold shadow-lg group-hover:shadow-lg group-hover:scale-105 transition-all duration-300`}>
-                  <span>ROZPOCZNIJ GRĘ</span>
-                  <RotateCcw className="w-4 h-4" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto">
+            {themes.map((theme) => (
+              <div
+                key={theme.id}
+                className="group bg-black/40 backdrop-blur-xl rounded-3xl p-6 lg:p-8 border border-violet-500/30 hover:border-violet-400/50 transition-all duration-300 hover:scale-105 cursor-pointer shadow-2xl hover:shadow-violet-500/25"
+                onClick={() => setSelectedTheme(theme.id)}
+              >
+                <div className="text-center">
+                  <div className={`w-16 h-16 lg:w-20 lg:h-20 bg-gradient-to-r ${theme.color} rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl lg:text-4xl shadow-lg group-hover:shadow-lg group-hover:scale-110 transition-all duration-300`}>
+                    {theme.emoji}
+                  </div>
+                  
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-white mb-4 group-hover:text-violet-200 transition-colors">
+                    {theme.name}
+                  </h3>
+                  
+                  <p className="text-violet-200 mb-6 leading-relaxed font-medium text-sm sm:text-base">
+                    {theme.description}
+                  </p>
+                  
+                  <div className={`inline-flex items-center space-x-2 px-4 lg:px-6 py-3 bg-gradient-to-r ${theme.color} text-white rounded-xl font-bold shadow-lg group-hover:shadow-lg group-hover:scale-105 transition-all duration-300 text-sm sm:text-base`}>
+                    <Play className="w-4 h-4" />
+                    <span>{t('game.startGame')}</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Game Info */}
-        <div className="mt-16 bg-black/40 backdrop-blur-xl rounded-3xl p-8 border border-violet-500/30 max-w-4xl mx-auto">
-          <div className="flex items-center space-x-3 mb-6">
-            <Info className="w-8 h-8 text-blue-400" />
-            <h3 className="text-2xl font-black text-white">JAK GRAĆ?</h3>
+            ))}
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h4 className="font-bold text-violet-200 mb-3">🎯 CEL GRY</h4>
-              <ul className="text-violet-100 space-y-2 text-sm">
-                <li>• Przeciągnij czynniki do odpowiednich gałęzi</li>
-                <li>• Każda gałąź potrzebuje 4 czynników</li>
-                <li>• Zbalansuj części i całości</li>
-                <li>• Zbalansuj przyczyny i skutki</li>
-              </ul>
-            </div>
-            
-            <div>
-              <h4 className="font-bold text-violet-200 mb-3">🏆 PUNKTACJA</h4>
-              <ul className="text-violet-100 space-y-2 text-sm">
-                <li>• +10 punktów za każdy poprawny czynnik</li>
-                <li>• +50 punktów za zbalansowaną gałąź</li>
-                <li>• +100 punktów za ukończenie scenariusza</li>
-                <li>• Maksymalny wynik: 270 punktów</li>
-              </ul>
+
+          {/* How to Play Section */}
+          <div className="mt-12 lg:mt-16 text-center">
+            <div className="bg-black/30 backdrop-blur-xl rounded-2xl p-6 lg:p-8 border border-violet-500/20 max-w-4xl mx-auto">
+              <div className="flex items-center justify-center space-x-3 mb-4">
+                <Info className="w-6 h-6 text-violet-300" />
+                <h3 className="text-lg lg:text-xl font-bold text-white">{t('game.howToPlay')}</h3>
+              </div>
+              <p className="text-violet-200 leading-relaxed text-sm sm:text-base">
+                {t('game.instructions')}
+              </p>
             </div>
           </div>
         </div>
       </main>
 
-      {/* Legal Footer */}
       <LegalFooter onOpenModal={openLegalModal} />
-
-      {/* Legal Modal */}
       <LegalModal
         isOpen={legalModal.isOpen}
         type={legalModal.type}

@@ -1,0 +1,115 @@
+{
+  "app": {
+    "title": "决策树",
+    "subtitle": "策略游戏",
+    "description": "🎮 通过在各种商业和生态场景中优化因子配置来发展您的战略思维技能",
+    "poweredBy": "Powered by HomoHumanicus Technology"
+  },
+  "auth": {
+    "accessConditions": "访问条件",
+    "demoAccess": "演示访问",
+    "fullAccess": "完全访问",
+    "free": "免费",
+    "premium": "高级",
+    "aiTribes": "AI TRIBES",
+    "premiumSubscription": "高级订阅",
+    "howToGetPassword": "如何获取密码",
+    "loginTitle": "游戏访问",
+    "loginSubtitle": "输入在AI Tribes注册后收到的密码",
+    "demoPassword": "演示密码",
+    "passwordPlaceholder": "输入从AI Tribes收到的密码...",
+    "login": "登录",
+    "logging": "登录中...",
+    "noPassword": "没有密码？在左侧注册AI Tribes。",
+    "secureLogin": "🔒 安全登录",
+    "quickAccess": "⚡ 快速访问",
+    "demoVersion": "🎮 演示版本",
+    "joinAiTribes": "加入AI Tribes",
+    "buyPremium": "购买高级版",
+    "logout": "登出",
+    "demoPasswordInfo": "🔐 加入AI Tribes社区后将自动获得演示密码：",
+    "aiTribesDescription": "通过注册加入AI Tribes社区。注册后，您将自动收到游戏的演示密码。",
+    "premiumDescription": "购买高级订阅，立即获得游戏所有功能的无限制访问权限。",
+    "registrationNote": "点击下面的按钮后，在AI Tribes注册，演示密码将自动授予您",
+    "steps": {
+      "clickButton": "点击上面的\"加入AI Tribes\"按钮",
+      "register": "在AI Tribes社区注册",
+      "receivePassword": "注册后自动收到演示密码",
+      "returnAndLogin": "返回这里并使用收到的密码登录"
+    }
+  },
+  "game": {
+    "chooseScenario": "选择游戏场景",
+    "scenarioDescription": "🎯 每个场景都提供独特的战略挑战。优化因子配置并最大化您的得分！",
+    "startGame": "开始游戏",
+    "howToPlay": "如何游戏？",
+    "gameGoal": "🎯 游戏目标",
+    "scoring": "🏆 计分系统",
+    "features": "游戏功能",
+    "ranking": "排名",
+    "security": "安全",
+    "fastGame": "快速游戏",
+    "achievements": "成就",
+    "rankingDesc": "与其他玩家竞争",
+    "securityDesc": "完整数据保护",
+    "fastGameDesc": "性能优化",
+    "achievementsDesc": "奖励系统",
+    "goals": {
+      "dragFactors": "• 将因子拖到适当的分支",
+      "fourFactors": "• 每个分支需要4个因子",
+      "balanceParts": "• 平衡部分和整体",
+      "balanceCauses": "• 平衡原因和结果"
+    },
+    "points": {
+      "correctFactor": "• 每个正确因子+10分",
+      "balancedBranch": "• 平衡分支+50分",
+      "completeScenario": "• 完成场景+100分",
+      "maxScore": "• 最高分数：270分"
+    }
+  },
+  "themes": {
+    "forest": {
+      "name": "森林生态系统",
+      "description": "优化森林中的环境因子"
+    },
+    "startup": {
+      "name": "科技创业",
+      "description": "构建技术创业策略"
+    },
+    "marketing": {
+      "name": "营销组合4P",
+      "description": "创建最佳营销组合"
+    }
+  },
+  "legal": {
+    "eula": "最终用户许可协议",
+    "licenseAgreement": "许可协议",
+    "endUserLicense": "最终用户许可协议",
+    "mainProvisions": "主要条款",
+    "terms": "条款",
+    "privacy": "隐私",
+    "license": "许可证",
+    "security": "安全",
+    "copyright": "版权",
+    "termsDesc": "游戏使用规则",
+    "privacyDesc": "隐私政策",
+    "licenseDesc": "许可条款",
+    "securityDesc": "安全政策",
+    "acceptanceTitle": "条款接受",
+    "acceptanceDesc": "登录游戏即表示您自动接受上述所有条款并承诺遵守。",
+    "copyrightProtected": "受版权保护",
+    "provisions": {
+      "nonExclusive": "游戏以非独占许可证提供",
+      "noModification": "禁止修改源代码",
+      "gdprProtection": "用户数据按照GDPR受到保护",
+      "revocable": "许可证可能在违规情况下被撤销"
+    }
+  },
+  "errors": {
+    "allFieldsRequired": "所有字段都是必需的",
+    "passwordTooShort": "密码必须至少6个字符",
+    "invalidPassword": "无效的访问密码。在AI Tribes社区注册后将自动获得演示密码。点击左侧的\"加入AI Tribes\"按钮，注册后带着收到的密码返回这里。",
+    "validEmail": "输入有效的电子邮件地址"
+  },
+  "loading": "加载中..."
+}

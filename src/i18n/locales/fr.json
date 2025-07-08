@@ -1,0 +1,115 @@
+{
+  "app": {
+    "title": "ARBRE DE DÉCISION",
+    "subtitle": "JEU STRATÉGIQUE",
+    "description": "🎮 Développez vos compétences de pensée stratégique en optimisant le placement des facteurs dans divers scénarios commerciaux et écologiques",
+    "poweredBy": "Powered by HomoHumanicus Technology"
+  },
+  "auth": {
+    "accessConditions": "CONDITIONS D'ACCÈS",
+    "demoAccess": "ACCÈS DÉMO",
+    "fullAccess": "ACCÈS COMPLET",
+    "free": "GRATUIT",
+    "premium": "PREMIUM",
+    "aiTribes": "AI TRIBES",
+    "premiumSubscription": "ABONNEMENT PREMIUM",
+    "howToGetPassword": "COMMENT OBTENIR LE MOT DE PASSE",
+    "loginTitle": "ACCÈS AU JEU",
+    "loginSubtitle": "Entrez le mot de passe reçu après inscription à AI Tribes",
+    "demoPassword": "MOT DE PASSE DÉMO",
+    "passwordPlaceholder": "Entrez le mot de passe reçu d'AI Tribes...",
+    "login": "SE CONNECTER",
+    "logging": "CONNEXION...",
+    "noPassword": "Pas de mot de passe ? Inscrivez-vous à AI Tribes sur le côté gauche.",
+    "secureLogin": "🔒 Connexion sécurisée",
+    "quickAccess": "⚡ Accès rapide",
+    "demoVersion": "🎮 Version démo",
+    "joinAiTribes": "Rejoindre AI Tribes",
+    "buyPremium": "Acheter Premium",
+    "logout": "Se déconnecter",
+    "demoPasswordInfo": "🔐 Le mot de passe démo sera accordé automatiquement après avoir rejoint la communauté AI Tribes :",
+    "aiTribesDescription": "Rejoignez la communauté AI Tribes par inscription. Après inscription, vous recevrez automatiquement un mot de passe démo pour le jeu.",
+    "premiumDescription": "Achetez un abonnement premium et obtenez un accès instantané à toutes les fonctionnalités du jeu sans limitations.",
+    "registrationNote": "Après avoir cliqué sur le bouton ci-dessous, inscrivez-vous à AI Tribes, et le mot de passe démo vous sera automatiquement accordé",
+    "steps": {
+      "clickButton": "Cliquez sur le bouton \"Rejoindre AI Tribes\" ci-dessus",
+      "register": "Inscrivez-vous dans la communauté AI Tribes",
+      "receivePassword": "Recevez le mot de passe démo automatiquement après inscription",
+      "returnAndLogin": "Revenez ici et connectez-vous avec le mot de passe reçu"
+    }
+  },
+  "game": {
+    "chooseScenario": "CHOISIR LE SCÉNARIO DE JEU",
+    "scenarioDescription": "🎯 Chaque scénario offre des défis stratégiques uniques. Optimisez le placement des facteurs et maximisez votre score !",
+    "startGame": "COMMENCER LE JEU",
+    "howToPlay": "COMMENT JOUER ?",
+    "gameGoal": "🎯 OBJECTIF DU JEU",
+    "scoring": "🏆 SYSTÈME DE POINTS",
+    "features": "FONCTIONNALITÉS DU JEU",
+    "ranking": "Classement",
+    "security": "Sécurité",
+    "fastGame": "Jeu rapide",
+    "achievements": "Réalisations",
+    "rankingDesc": "Rivaliser avec d'autres joueurs",
+    "securityDesc": "Protection complète des données",
+    "fastGameDesc": "Optimisation des performances",
+    "achievementsDesc": "Système de récompenses",
+    "goals": {
+      "dragFactors": "• Faites glisser les facteurs vers les branches appropriées",
+      "fourFactors": "• Chaque branche a besoin de 4 facteurs",
+      "balanceParts": "• Équilibrez les parties et les ensembles",
+      "balanceCauses": "• Équilibrez les causes et les effets"
+    },
+    "points": {
+      "correctFactor": "• +10 points pour chaque facteur correct",
+      "balancedBranch": "• +50 points pour une branche équilibrée",
+      "completeScenario": "• +100 points pour terminer le scénario",
+      "maxScore": "• Score maximum : 270 points"
+    }
+  },
+  "themes": {
+    "forest": {
+      "name": "Écosystème Forestier",
+      "description": "Optimisez les facteurs environnementaux dans la forêt"
+    },
+    "startup": {
+      "name": "Startup Tech",
+      "description": "Construisez une stratégie de startup technologique"
+    },
+    "marketing": {
+      "name": "Marketing Mix 4P",
+      "description": "Créez un mix marketing optimal"
+    }
+  },
+  "legal": {
+    "eula": "CLUF",
+    "licenseAgreement": "ACCORD DE LICENCE",
+    "endUserLicense": "Contrat de Licence Utilisateur Final",
+    "mainProvisions": "Dispositions principales",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "license": "Licence",
+    "security": "Sécurité",
+    "copyright": "Droits d'auteur",
+    "termsDesc": "Règles d'utilisation du jeu",
+    "privacyDesc": "Politique de confidentialité",
+    "licenseDesc": "Conditions de licence",
+    "securityDesc": "Politique de sécurité",
+    "acceptanceTitle": "Acceptation des conditions",
+    "acceptanceDesc": "En vous connectant au jeu, vous acceptez automatiquement toutes les conditions ci-dessus et vous vous engagez à les respecter.",
+    "copyrightProtected": "Protégé par le droit d'auteur",
+    "provisions": {
+      "nonExclusive": "Le jeu est fourni sous licence non exclusive",
+      "noModification": "La modification du code source est interdite",
+      "gdprProtection": "Les données utilisateur sont protégées conformément au RGPD",
+      "revocable": "La licence peut être révoquée en cas de violation"
+    }
+  },
+  "errors": {
+    "allFieldsRequired": "Tous les champs sont requis",
+    "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
+    "invalidPassword": "Mot de passe d'accès invalide. Le mot de passe démo sera accordé automatiquement après inscription dans la communauté AI Tribes. Cliquez sur le bouton \"Rejoindre AI Tribes\" sur le côté gauche, inscrivez-vous, puis revenez ici avec le mot de passe reçu.",
+    "validEmail": "Entrez une adresse e-mail valide"
+  },
+  "loading": "Chargement..."
+}

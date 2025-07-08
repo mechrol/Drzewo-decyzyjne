@@ -127,10 +127,10 @@ export const LoginPage: React.FC = () => {
               </p>
             </div>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-2 gap-6 lg:gap-8 items-start">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-8 items-start">
               
               {/* Left Side - Requirements Information */}
-              <div className="space-y-6">
+              <div className="xl:col-span-2 space-y-6">
                 
                 {/* Main Requirements Card */}
                 <div className="bg-black/40 backdrop-blur-xl rounded-3xl shadow-2xl p-4 sm:p-6 lg:p-8 border border-violet-500/30 hover:border-violet-400/50 transition-all duration-300">
@@ -217,38 +217,6 @@ export const LoginPage: React.FC = () => {
                         </div>
                       </div>
                     </div>
-
-                    {/* Verification Process */}
-                    <div className="bg-gradient-to-r from-green-900/50 to-emerald-800/50 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-green-400/30 hover:border-green-300/50 transition-all duration-300">
-                      <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
-                        <div className="p-3 bg-green-500/20 rounded-xl">
-                          <UserCheck className="w-6 h-6 sm:w-8 sm:h-8 text-green-300 flex-shrink-0" />
-                        </div>
-                        <div className="flex-1">
-                          <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-white mb-3">
-                            {t('auth.howToGetPassword')}
-                          </h3>
-                          <div className="space-y-3 text-green-100 text-sm sm:text-base">
-                            <div className="flex items-start space-x-2">
-                              <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>{t('auth.steps.clickButton')}</span>
-                            </div>
-                            <div className="flex items-start space-x-2">
-                              <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>{t('auth.steps.register')}</span>
-                            </div>
-                            <div className="flex items-start space-x-2">
-                              <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>{t('auth.steps.receivePassword')}</span>
-                            </div>
-                            <div className="flex items-start space-x-2">
-                              <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>{t('auth.steps.returnAndLogin')}</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
 
@@ -297,9 +265,41 @@ export const LoginPage: React.FC = () => {
                 </div>
               </div>
 
-              {/* Right Side - Login Form and EULA */}
-              <div className="space-y-6">
+              {/* Right Side - Login Form, EULA, and Password Instructions */}
+              <div className="xl:col-span-1 space-y-6">
                 
+                {/* Verification Process - Now positioned on the right */}
+                <div className="bg-gradient-to-r from-green-900/50 to-emerald-800/50 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-green-400/30 hover:border-green-300/50 transition-all duration-300">
+                  <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <div className="p-3 bg-green-500/20 rounded-xl">
+                      <UserCheck className="w-6 h-6 sm:w-8 sm:h-8 text-green-300 flex-shrink-0" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-white mb-3">
+                        {t('auth.howToGetPassword')}
+                      </h3>
+                      <div className="space-y-3 text-green-100 text-sm sm:text-base">
+                        <div className="flex items-start space-x-2">
+                          <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>{t('auth.steps.clickButton')}</span>
+                        </div>
+                        <div className="flex items-start space-x-2">
+                          <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>{t('auth.steps.register')}</span>
+                        </div>
+                        <div className="flex items-start space-x-2">
+                          <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>{t('auth.steps.receivePassword')}</span>
+                        </div>
+                        <div className="flex items-start space-x-2">
+                          <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>{t('auth.steps.returnAndLogin')}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 {/* Tab Navigation */}
                 <div className="bg-black/40 backdrop-blur-xl rounded-3xl shadow-2xl border border-violet-500/30 overflow-hidden">
                   <div className="flex">

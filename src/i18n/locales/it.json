@@ -30,10 +30,10 @@
     "demoPasswordInfo": "🔐 La password demo verrà concessa automaticamente dopo essersi uniti alla comunità AI Tribes:",
     "aiTribesDescription": "Unisciti alla comunità AI Tribes tramite registrazione. Dopo la registrazione, riceverai automaticamente una password demo per il gioco.",
     "premiumDescription": "Acquista un abbonamento premium e ottieni accesso istantaneo a tutte le funzionalità del gioco senza limitazioni.",
-    "registrationNote": "Dopo aver cliccato il pulsante qui sotto, registrati ad AI Tribes e la password demo ti verrà concessa automaticamente",
+    "registrationNote": "Dopo aver cliccato il pulsante qui sotto, registrati ad AI Tribes e la password demo verrà concessa automaticamente",
     "steps": {
       "clickButton": "Clicca il pulsante \"Unisciti ad AI Tribes\" sopra",
-      "register": "Registrati nella comunità AI Tribes",
+      "register": "Registrati alla comunità AI Tribes",
       "receivePassword": "Ricevi la password demo automaticamente dopo la registrazione",
       "returnAndLogin": "Torna qui e accedi usando la password ricevuta"
     }
@@ -57,7 +57,7 @@
     "goals": {
       "dragFactors": "• Trascina i fattori sui rami appropriati",
       "fourFactors": "• Ogni ramo ha bisogno di 4 fattori",
-      "balanceParts": "• Bilancia parti e interi",
+      "balanceParts": "• Bilancia parti e insiemi",
       "balanceCauses": "• Bilancia cause ed effetti"
     },
     "points": {
@@ -65,20 +65,97 @@
       "balancedBranch": "• +50 punti per ramo bilanciato",
       "completeScenario": "• +100 punti per completare lo scenario",
       "maxScore": "• Punteggio massimo: 270 punti"
+    },
+    "ui": {
+      "back": "Indietro",
+      "reset": "Ripristina",
+      "points": "punti",
+      "status": "Stato",
+      "factors": "FATTORI",
+      "availableFactors": "FATTORI DISPONIBILI",
+      "stationaryRetailPoints": "Negozi al dettaglio stazionari",
+      "value": "Valore",
+      "onlineChannels": "Canali online",
+      "internetSalesPlatforms": "Piattaforme di vendita Internet",
+      "distributors": "Distributori",
+      "intermediariesInSupplyChains": "Intermediari nelle catene di fornitura",
+      "dragFactorHere": "Trascina fattore qui",
+      "remainingSlots": "4 slot rimanenti",
+      "optimized": "Ott"
     }
   },
   "themes": {
     "forest": {
       "name": "Ecosistema Forestale",
-      "description": "Ottimizza i fattori ambientali nella foresta"
+      "description": "Ottimizza i fattori ambientali nella foresta",
+      "factors": {
+        "trees": "Alberi",
+        "animals": "Animali",
+        "water": "Fonti d'acqua",
+        "soil": "Qualità del suolo",
+        "climate": "Condizioni climatiche",
+        "biodiversity": "Biodiversità",
+        "sunlight": "Luce solare",
+        "nutrients": "Nutrienti",
+        "predators": "Predatori",
+        "herbivores": "Erbivori",
+        "decomposers": "Decompositori",
+        "pollinators": "Impollinatori"
+      },
+      "branches": {
+        "producers": "Produttori",
+        "primaryConsumers": "Consumatori Primari",
+        "secondaryConsumers": "Consumatori Secondari",
+        "decomposers": "Decompositori"
+      }
     },
     "startup": {
-      "name": "Startup Tech",
-      "description": "Costruisci strategia di startup tecnologica"
+      "name": "Startup Tecnologica",
+      "description": "Costruisci una strategia di startup tecnologica",
+      "factors": {
+        "funding": "Finanziamento",
+        "team": "Team",
+        "product": "Prodotto",
+        "market": "Ricerca di mercato",
+        "technology": "Stack tecnologico",
+        "customers": "Base clienti",
+        "competition": "Analisi della concorrenza",
+        "marketing": "Strategia di marketing",
+        "revenue": "Modello di ricavi",
+        "partnerships": "Partnership strategiche",
+        "scalability": "Scalabilità",
+        "innovation": "Innovazione"
+      },
+      "branches": {
+        "development": "Sviluppo",
+        "marketing": "Marketing",
+        "operations": "Operazioni",
+        "growth": "Crescita"
+      }
     },
     "marketing": {
       "name": "Marketing Mix 4P",
-      "description": "Crea mix di marketing ottimale"
+      "description": "Crea un mix di marketing ottimale",
+      "factors": {
+        "stationaryRetail": "Negozi al dettaglio stazionari",
+        "onlineChannels": "Canali online",
+        "distributors": "Distributori",
+        "promotion": "Campagne promozionali",
+        "advertising": "Pubblicità",
+        "publicRelations": "Relazioni pubbliche",
+        "salesPromotion": "Promozione vendite",
+        "directMarketing": "Marketing diretto",
+        "pricing": "Strategia di prezzo",
+        "costBased": "Prezzi basati sui costi",
+        "valueBased": "Prezzi basati sul valore",
+        "competitive": "Prezzi competitivi"
+      },
+      "branches": {
+        "distribution": "Distribuzione",
+        "price": "Prezzo",
+        "product": "Prodotto",
+        "promotion": "Promozione"
+      }
     }
   },
   "legal": {
@@ -108,7 +185,7 @@
   "errors": {
     "allFieldsRequired": "Tutti i campi sono obbligatori",
     "passwordTooShort": "La password deve avere almeno 6 caratteri",
-    "invalidPassword": "Password di accesso non valida. La password demo verrà concessa automaticamente dopo la registrazione nella comunità AI Tribes. Clicca il pulsante \"Unisciti ad AI Tribes\" sul lato sinistro, registrati e poi torna qui con la password ricevuta.",
+    "invalidPassword": "Password di accesso non valida. La password demo verrà concessa automaticamente dopo la registrazione alla comunità AI Tribes. Clicca il pulsante \"Unisciti ad AI Tribes\" sul lato sinistro, registrati e poi torna qui con la password ricevuta.",
     "validEmail": "Inserisci un indirizzo email valido"
   },
   "loading": "Caricamento..."

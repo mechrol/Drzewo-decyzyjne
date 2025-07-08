@@ -44,7 +44,7 @@
     "startGame": "INICIAR JOGO",
     "howToPlay": "COMO JOGAR?",
     "gameGoal": "🎯 OBJETIVO DO JOGO",
-    "scoring": "🏆 SISTEMA DE PONTUAÇÃO",
+    "scoring": "🏆 SISTEMA DE PONTOS",
     "features": "RECURSOS DO JOGO",
     "ranking": "Classificação",
     "security": "Segurança",
@@ -55,30 +55,107 @@
     "fastGameDesc": "Otimização de desempenho",
     "achievementsDesc": "Sistema de recompensas",
     "goals": {
-      "dragFactors": "• Arraste fatores para os ramos apropriados",
+      "dragFactors": "• Arraste fatores para ramos apropriados",
       "fourFactors": "• Cada ramo precisa de 4 fatores",
-      "balanceParts": "• Equilibre partes e totalidades",
-      "balanceCauses": "• Equilibre causas e efeitos"
+      "balanceParts": "• Balance partes e conjuntos",
+      "balanceCauses": "• Balance causas e efeitos"
     },
     "points": {
       "correctFactor": "• +10 pontos para cada fator correto",
-      "balancedBranch": "• +50 pontos para ramo equilibrado",
+      "balancedBranch": "• +50 pontos para ramo balanceado",
       "completeScenario": "• +100 pontos para completar cenário",
       "maxScore": "• Pontuação máxima: 270 pontos"
+    },
+    "ui": {
+      "back": "Voltar",
+      "reset": "Reiniciar",
+      "points": "pontos",
+      "status": "Status",
+      "factors": "FATORES",
+      "availableFactors": "FATORES DISPONÍVEIS",
+      "stationaryRetailPoints": "Lojas de varejo estacionárias",
+      "value": "Valor",
+      "onlineChannels": "Canais online",
+      "internetSalesPlatforms": "Plataformas de vendas na Internet",
+      "distributors": "Distribuidores",
+      "intermediariesInSupplyChains": "Intermediários em cadeias de suprimentos",
+      "dragFactorHere": "Arraste fator aqui",
+      "remainingSlots": "4 espaços restantes",
+      "optimized": "Ot"
     }
   },
   "themes": {
     "forest": {
       "name": "Ecossistema Florestal",
-      "description": "Otimize fatores ambientais na floresta"
+      "description": "Otimize fatores ambientais na floresta",
+      "factors": {
+        "trees": "Árvores",
+        "animals": "Animais",
+        "water": "Fontes de água",
+        "soil": "Qualidade do solo",
+        "climate": "Condições climáticas",
+        "biodiversity": "Biodiversidade",
+        "sunlight": "Luz solar",
+        "nutrients": "Nutrientes",
+        "predators": "Predadores",
+        "herbivores": "Herbívoros",
+        "decomposers": "Decompositores",
+        "pollinators": "Polinizadores"
+      },
+      "branches": {
+        "producers": "Produtores",
+        "primaryConsumers": "Consumidores Primários",
+        "secondaryConsumers": "Consumidores Secundários",
+        "decomposers": "Decompositores"
+      }
     },
     "startup": {
-      "name": "Startup Tech",
-      "description": "Construa estratégia de startup tecnológica"
+      "name": "Startup de Tecnologia",
+      "description": "Construa uma estratégia de startup de tecnologia",
+      "factors": {
+        "funding": "Financiamento",
+        "team": "Equipe",
+        "product": "Produto",
+        "market": "Pesquisa de mercado",
+        "technology": "Stack de tecnologia",
+        "customers": "Base de clientes",
+        "competition": "Análise da concorrência",
+        "marketing": "Estratégia de marketing",
+        "revenue": "Modelo de receita",
+        "partnerships": "Parcerias estratégicas",
+        "scalability": "Escalabilidade",
+        "innovation": "Inovação"
+      },
+      "branches": {
+        "development": "Desenvolvimento",
+        "marketing": "Marketing",
+        "operations": "Operações",
+        "growth": "Crescimento"
+      }
     },
     "marketing": {
-      "name": "Marketing Mix 4P",
-      "description": "Crie mix de marketing ótimo"
+      "name": "Mix de Marketing 4P",
+      "description": "Crie um mix de marketing ótimo",
+      "factors": {
+        "stationaryRetail": "Lojas de varejo estacionárias",
+        "onlineChannels": "Canais online",
+        "distributors": "Distribuidores",
+        "promotion": "Campanhas promocionais",
+        "advertising": "Publicidade",
+        "publicRelations": "Relações públicas",
+        "salesPromotion": "Promoção de vendas",
+        "directMarketing": "Marketing direto",
+        "pricing": "Estratégia de preços",
+        "costBased": "Preços baseados em custos",
+        "valueBased": "Preços baseados em valor",
+        "competitive": "Preços competitivos"
+      },
+      "branches": {
+        "distribution": "Distribuição",
+        "price": "Preço",
+        "product": "Produto",
+        "promotion": "Promoção"
+      }
     }
   },
   "legal": {
@@ -100,15 +177,15 @@
     "copyrightProtected": "Protegido por direitos autorais",
     "provisions": {
       "nonExclusive": "O jogo é fornecido sob licença não exclusiva",
-      "noModification": "Modificação do código fonte é proibida",
-      "gdprProtection": "Dados do usuário são protegidos de acordo com GDPR",
-      "revocable": "Licença pode ser revogada em caso de violação"
+      "noModification": "A modificação do código fonte é proibida",
+      "gdprProtection": "Os dados do usuário são protegidos de acordo com o GDPR",
+      "revocable": "A licença pode ser revogada em caso de violação"
     }
   },
   "errors": {
     "allFieldsRequired": "Todos os campos são obrigatórios",
-    "passwordTooShort": "Senha deve ter pelo menos 6 caracteres",
-    "invalidPassword": "Senha de acesso inválida. A senha demo será concedida automaticamente após registro na comunidade AI Tribes. Clique no botão \"Juntar-se ao AI Tribes\" no lado esquerdo, registre-se e retorne aqui com a senha recebida.",
+    "passwordTooShort": "A senha deve ter pelo menos 6 caracteres",
+    "invalidPassword": "Senha de acesso inválida. A senha demo será concedida automaticamente após o registro na comunidade AI Tribes. Clique no botão \"Juntar-se ao AI Tribes\" no lado esquerdo, registre-se e retorne aqui com a senha recebida.",
     "validEmail": "Digite um endereço de email válido"
   },
   "loading": "Carregando..."

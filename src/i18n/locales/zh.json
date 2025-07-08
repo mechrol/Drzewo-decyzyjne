@@ -30,7 +30,7 @@
     "demoPasswordInfo": "🔐 加入AI Tribes社区后将自动获得演示密码：",
     "aiTribesDescription": "通过注册加入AI Tribes社区。注册后，您将自动收到游戏的演示密码。",
     "premiumDescription": "购买高级订阅，立即获得所有游戏功能的无限制访问权限。",
-    "registrationNote": "点击下面的按钮后，在AI Tribes注册，演示密码将自动授予您",
+    "registrationNote": "点击下面的按钮后，在AI Tribes注册，演示密码将自动授予",
     "steps": {
       "clickButton": "点击上面的\"加入AI Tribes\"按钮",
       "register": "在AI Tribes社区注册",
@@ -55,7 +55,7 @@
     "fastGameDesc": "性能优化",
     "achievementsDesc": "奖励系统",
     "goals": {
-      "dragFactors": "• 将因子拖到适当的分支",
+      "dragFactors": "• 将因子拖拽到适当的分支",
       "fourFactors": "• 每个分支需要4个因子",
       "balanceParts": "• 平衡部分和整体",
       "balanceCauses": "• 平衡原因和结果"
@@ -65,30 +65,107 @@
       "balancedBranch": "• 平衡分支+50分",
       "completeScenario": "• 完成场景+100分",
       "maxScore": "• 最高分：270分"
+    },
+    "ui": {
+      "back": "返回",
+      "reset": "重置",
+      "points": "分",
+      "status": "状态",
+      "factors": "因子",
+      "availableFactors": "可用因子",
+      "stationaryRetailPoints": "固定零售店",
+      "value": "价值",
+      "onlineChannels": "在线渠道",
+      "internetSalesPlatforms": "互联网销售平台",
+      "distributors": "分销商",
+      "intermediariesInSupplyChains": "供应链中介",
+      "dragFactorHere": "将因子拖拽到这里",
+      "remainingSlots": "剩余4个位置",
+      "optimized": "优化"
     }
   },
   "themes": {
     "forest": {
       "name": "森林生态系统",
-      "description": "优化森林中的环境因子"
+      "description": "优化森林中的环境因子",
+      "factors": {
+        "trees": "树木",
+        "animals": "动物",
+        "water": "水源",
+        "soil": "土壤质量",
+        "climate": "气候条件",
+        "biodiversity": "生物多样性",
+        "sunlight": "阳光",
+        "nutrients": "营养物质",
+        "predators": "捕食者",
+        "herbivores": "食草动物",
+        "decomposers": "分解者",
+        "pollinators": "传粉者"
+      },
+      "branches": {
+        "producers": "生产者",
+        "primaryConsumers": "初级消费者",
+        "secondaryConsumers": "次级消费者",
+        "decomposers": "分解者"
+      }
     },
     "startup": {
       "name": "科技创业",
-      "description": "构建技术创业策略"
+      "description": "构建科技创业策略",
+      "factors": {
+        "funding": "资金",
+        "team": "团队",
+        "product": "产品",
+        "market": "市场研究",
+        "technology": "技术栈",
+        "customers": "客户群",
+        "competition": "竞争分析",
+        "marketing": "营销策略",
+        "revenue": "收入模式",
+        "partnerships": "战略合作",
+        "scalability": "可扩展性",
+        "innovation": "创新"
+      },
+      "branches": {
+        "development": "开发",
+        "marketing": "营销",
+        "operations": "运营",
+        "growth": "增长"
+      }
     },
     "marketing": {
       "name": "营销组合4P",
-      "description": "创建最佳营销组合"
+      "description": "创建最优营销组合",
+      "factors": {
+        "stationaryRetail": "固定零售店",
+        "onlineChannels": "在线渠道",
+        "distributors": "分销商",
+        "promotion": "促销活动",
+        "advertising": "广告",
+        "publicRelations": "公共关系",
+        "salesPromotion": "销售促进",
+        "directMarketing": "直接营销",
+        "pricing": "定价策略",
+        "costBased": "成本定价",
+        "valueBased": "价值定价",
+        "competitive": "竞争定价"
+      },
+      "branches": {
+        "distribution": "分销",
+        "price": "价格",
+        "product": "产品",
+        "promotion": "促销"
+      }
     }
   },
   "legal": {
-    "eula": "最终用户许可协议",
+    "eula": "EULA",
     "licenseAgreement": "许可协议",
     "endUserLicense": "最终用户许可协议",
     "mainProvisions": "主要条款",
     "terms": "条款",
     "privacy": "隐私",
-    "license": "许可证",
+    "license": "许可",
     "security": "安全",
     "copyright": "版权",
     "termsDesc": "游戏使用规则",
@@ -99,16 +176,16 @@
     "acceptanceDesc": "登录游戏即表示您自动接受上述所有条款并承诺遵守。",
     "copyrightProtected": "受版权保护",
     "provisions": {
-      "nonExclusive": "游戏以非独占许可证提供",
+      "nonExclusive": "游戏以非独占许可提供",
       "noModification": "禁止修改源代码",
-      "gdprProtection": "用户数据按照GDPR受到保护",
-      "revocable": "违反时许可证可被撤销"
+      "gdprProtection": "用户数据按GDPR保护",
+      "revocable": "违反时许可可被撤销"
     }
   },
   "errors": {
     "allFieldsRequired": "所有字段都是必需的",
     "passwordTooShort": "密码必须至少6个字符",
-    "invalidPassword": "无效的访问密码。在AI Tribes社区注册后将自动获得演示密码。点击左侧的\"加入AI Tribes\"按钮，注册后返回这里使用收到的密码。",
+    "invalidPassword": "无效的访问密码。加入AI Tribes社区注册后将自动获得演示密码。点击左侧的\"加入AI Tribes\"按钮，注册后返回这里使用收到的密码。",
     "validEmail": "输入有效的电子邮件地址"
   },
   "loading": "加载中..."

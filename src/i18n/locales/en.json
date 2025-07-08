@@ -65,20 +65,97 @@
       "balancedBranch": "• +50 points for balanced branch",
       "completeScenario": "• +100 points for completing scenario",
       "maxScore": "• Maximum score: 270 points"
+    },
+    "ui": {
+      "back": "Back",
+      "reset": "Reset",
+      "points": "points",
+      "status": "Status",
+      "factors": "FACTORS",
+      "availableFactors": "AVAILABLE FACTORS",
+      "stationaryRetailPoints": "Stationary retail points",
+      "value": "Value",
+      "onlineChannels": "Online channels",
+      "internetSalesPlatforms": "Internet sales platforms",
+      "distributors": "Distributors",
+      "intermediariesInSupplyChains": "Intermediaries in supply chains",
+      "dragFactorHere": "Drag factor here",
+      "remainingSlots": "4 slots remaining",
+      "optimized": "Opt"
     }
   },
   "themes": {
     "forest": {
       "name": "Forest Ecosystem",
-      "description": "Optimize environmental factors in the forest"
+      "description": "Optimize environmental factors in the forest",
+      "factors": {
+        "trees": "Trees",
+        "animals": "Animals",
+        "water": "Water sources",
+        "soil": "Soil quality",
+        "climate": "Climate conditions",
+        "biodiversity": "Biodiversity",
+        "sunlight": "Sunlight",
+        "nutrients": "Nutrients",
+        "predators": "Predators",
+        "herbivores": "Herbivores",
+        "decomposers": "Decomposers",
+        "pollinators": "Pollinators"
+      },
+      "branches": {
+        "producers": "Producers",
+        "primaryConsumers": "Primary Consumers",
+        "secondaryConsumers": "Secondary Consumers",
+        "decomposers": "Decomposers"
+      }
     },
     "startup": {
       "name": "Tech Startup",
-      "description": "Build a technology startup strategy"
+      "description": "Build a technology startup strategy",
+      "factors": {
+        "funding": "Funding",
+        "team": "Team",
+        "product": "Product",
+        "market": "Market research",
+        "technology": "Technology stack",
+        "customers": "Customer base",
+        "competition": "Competition analysis",
+        "marketing": "Marketing strategy",
+        "revenue": "Revenue model",
+        "partnerships": "Strategic partnerships",
+        "scalability": "Scalability",
+        "innovation": "Innovation"
+      },
+      "branches": {
+        "development": "Development",
+        "marketing": "Marketing",
+        "operations": "Operations",
+        "growth": "Growth"
+      }
     },
     "marketing": {
       "name": "Marketing Mix 4P",
-      "description": "Create optimal marketing mix"
+      "description": "Create optimal marketing mix",
+      "factors": {
+        "stationaryRetail": "Stationary retail stores",
+        "onlineChannels": "Online channels",
+        "distributors": "Distributors",
+        "promotion": "Promotion campaigns",
+        "advertising": "Advertising",
+        "publicRelations": "Public relations",
+        "salesPromotion": "Sales promotion",
+        "directMarketing": "Direct marketing",
+        "pricing": "Pricing strategy",
+        "costBased": "Cost-based pricing",
+        "valueBased": "Value-based pricing",
+        "competitive": "Competitive pricing"
+      },
+      "branches": {
+        "distribution": "Distribution",
+        "price": "Price",
+        "product": "Product",
+        "promotion": "Promotion"
+      }
     }
   },
   "legal": {

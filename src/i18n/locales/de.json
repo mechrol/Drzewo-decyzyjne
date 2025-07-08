@@ -1,19 +1,19 @@
 {
   "app": {
     "title": "ENTSCHEIDUNGSBAUM",
-    "subtitle": "STRATEGIESPIEL",
+    "subtitle": "STRATEGISCHES SPIEL",
     "description": "🎮 Entwickeln Sie Ihre strategischen Denkfähigkeiten durch die Optimierung der Faktorenplatzierung in verschiedenen Geschäfts- und Umweltszenarien",
     "poweredBy": "Angetrieben von HomoHumanicus-Technologie"
   },
   "auth": {
-    "accessConditions": "ZUGANGSVORAUSSETZUNGEN",
+    "accessConditions": "ZUGRIFFSBEDINGUNGEN",
     "demoAccess": "DEMO-ZUGANG",
     "fullAccess": "VOLLZUGANG",
     "free": "KOSTENLOS",
     "premium": "PREMIUM",
     "aiTribes": "AI TRIBES",
     "premiumSubscription": "PREMIUM-ABONNEMENT",
-    "howToGetPassword": "WIE BEKOMME ICH EIN PASSWORT",
+    "howToGetPassword": "WIE MAN EIN PASSWORT ERHÄLT",
     "loginTitle": "SPIELZUGANG",
     "loginSubtitle": "Geben Sie das nach der Registrierung bei AI Tribes erhaltene Passwort ein",
     "demoPassword": "DEMO-PASSWORT",
@@ -27,13 +27,13 @@
     "joinAiTribes": "AI Tribes beitreten",
     "buyPremium": "Premium kaufen",
     "logout": "Abmelden",
-    "demoPasswordInfo": "🔐 Das Demo-Passwort wird automatisch nach dem Beitritt zur AI Tribes-Community gewährt:",
+    "demoPasswordInfo": "🔐 Demo-Passwort wird automatisch nach dem Beitritt zur AI Tribes-Community gewährt:",
     "aiTribesDescription": "Treten Sie der AI Tribes-Community durch Registrierung bei. Nach der Registrierung erhalten Sie automatisch ein Demo-Passwort für das Spiel.",
     "premiumDescription": "Kaufen Sie ein Premium-Abonnement und erhalten Sie sofortigen Zugang zu allen Spielfunktionen ohne Einschränkungen.",
-    "registrationNote": "Nach dem Klicken auf die Schaltfläche unten registrieren Sie sich bei AI Tribes und das Demo-Passwort wird Ihnen automatisch gewährt",
+    "registrationNote": "Nach dem Klicken auf die Schaltfläche unten registrieren Sie sich bei AI Tribes und das Demo-Passwort wird automatisch gewährt",
     "steps": {
       "clickButton": "Klicken Sie auf die Schaltfläche \"AI Tribes beitreten\" oben",
-      "register": "Registrieren Sie sich in der AI Tribes-Community",
+      "register": "Registrieren Sie sich bei der AI Tribes-Community",
       "receivePassword": "Erhalten Sie das Demo-Passwort automatisch nach der Registrierung",
       "returnAndLogin": "Kehren Sie hierher zurück und melden Sie sich mit dem erhaltenen Passwort an"
     }
@@ -55,30 +55,107 @@
     "fastGameDesc": "Leistungsoptimierung",
     "achievementsDesc": "Belohnungssystem",
     "goals": {
-      "dragFactors": "• Ziehen Sie Faktoren zu entsprechenden Ästen",
-      "fourFactors": "• Jeder Ast benötigt 4 Faktoren",
-      "balanceParts": "• Teile und Ganzes ausbalancieren",
-      "balanceCauses": "• Ursachen und Wirkungen ausbalancieren"
+      "dragFactors": "• Ziehen Sie Faktoren zu entsprechenden Zweigen",
+      "fourFactors": "• Jeder Zweig benötigt 4 Faktoren",
+      "balanceParts": "• Balancieren Sie Teile und Ganzes",
+      "balanceCauses": "• Balancieren Sie Ursachen und Wirkungen"
     },
     "points": {
       "correctFactor": "• +10 Punkte für jeden korrekten Faktor",
-      "balancedBranch": "• +50 Punkte für ausbalancierten Ast",
+      "balancedBranch": "• +50 Punkte für ausgewogenen Zweig",
       "completeScenario": "• +100 Punkte für abgeschlossenes Szenario",
       "maxScore": "• Maximale Punktzahl: 270 Punkte"
+    },
+    "ui": {
+      "back": "Zurück",
+      "reset": "Zurücksetzen",
+      "points": "Punkte",
+      "status": "Status",
+      "factors": "FAKTOREN",
+      "availableFactors": "VERFÜGBARE FAKTOREN",
+      "stationaryRetailPoints": "Stationäre Einzelhandelsgeschäfte",
+      "value": "Wert",
+      "onlineChannels": "Online-Kanäle",
+      "internetSalesPlatforms": "Internet-Verkaufsplattformen",
+      "distributors": "Distributoren",
+      "intermediariesInSupplyChains": "Zwischenhändler in Lieferketten",
+      "dragFactorHere": "Faktor hier hinziehen",
+      "remainingSlots": "4 Plätze verbleibend",
+      "optimized": "Opt"
     }
   },
   "themes": {
     "forest": {
       "name": "Waldökosystem",
-      "description": "Umweltfaktoren im Wald optimieren"
+      "description": "Optimieren Sie Umweltfaktoren im Wald",
+      "factors": {
+        "trees": "Bäume",
+        "animals": "Tiere",
+        "water": "Wasserquellen",
+        "soil": "Bodenqualität",
+        "climate": "Klimabedingungen",
+        "biodiversity": "Biodiversität",
+        "sunlight": "Sonnenlicht",
+        "nutrients": "Nährstoffe",
+        "predators": "Raubtiere",
+        "herbivores": "Pflanzenfresser",
+        "decomposers": "Zersetzer",
+        "pollinators": "Bestäuber"
+      },
+      "branches": {
+        "producers": "Produzenten",
+        "primaryConsumers": "Primärkonsumenten",
+        "secondaryConsumers": "Sekundärkonsumenten",
+        "decomposers": "Zersetzer"
+      }
     },
     "startup": {
       "name": "Tech-Startup",
-      "description": "Technologie-Startup-Strategie aufbauen"
+      "description": "Bauen Sie eine Technologie-Startup-Strategie auf",
+      "factors": {
+        "funding": "Finanzierung",
+        "team": "Team",
+        "product": "Produkt",
+        "market": "Marktforschung",
+        "technology": "Technologie-Stack",
+        "customers": "Kundenbasis",
+        "competition": "Wettbewerbsanalyse",
+        "marketing": "Marketing-Strategie",
+        "revenue": "Umsatzmodell",
+        "partnerships": "Strategische Partnerschaften",
+        "scalability": "Skalierbarkeit",
+        "innovation": "Innovation"
+      },
+      "branches": {
+        "development": "Entwicklung",
+        "marketing": "Marketing",
+        "operations": "Betrieb",
+        "growth": "Wachstum"
+      }
     },
     "marketing": {
       "name": "Marketing-Mix 4P",
-      "description": "Optimalen Marketing-Mix erstellen"
+      "description": "Erstellen Sie einen optimalen Marketing-Mix",
+      "factors": {
+        "stationaryRetail": "Stationäre Einzelhandelsgeschäfte",
+        "onlineChannels": "Online-Kanäle",
+        "distributors": "Distributoren",
+        "promotion": "Werbekampagnen",
+        "advertising": "Werbung",
+        "publicRelations": "Öffentlichkeitsarbeit",
+        "salesPromotion": "Verkaufsförderung",
+        "directMarketing": "Direktmarketing",
+        "pricing": "Preisstrategie",
+        "costBased": "Kostenbasierte Preisgestaltung",
+        "valueBased": "Wertbasierte Preisgestaltung",
+        "competitive": "Wettbewerbspreise"
+      },
+      "branches": {
+        "distribution": "Distribution",
+        "price": "Preis",
+        "product": "Produkt",
+        "promotion": "Promotion"
+      }
     }
   },
   "legal": {
@@ -99,8 +176,8 @@
     "acceptanceDesc": "Durch die Anmeldung im Spiel akzeptieren Sie automatisch alle oben genannten Bedingungen und verpflichten sich, diese einzuhalten.",
     "copyrightProtected": "Urheberrechtlich geschützt",
     "provisions": {
-      "nonExclusive": "Das Spiel wird unter nicht-exklusiver Lizenz bereitgestellt",
-      "noModification": "Modifikation des Quellcodes ist verboten",
+      "nonExclusive": "Spiel wird unter nicht-exklusiver Lizenz bereitgestellt",
+      "noModification": "Änderung des Quellcodes ist verboten",
       "gdprProtection": "Benutzerdaten sind gemäß DSGVO geschützt",
       "revocable": "Lizenz kann bei Verletzung widerrufen werden"
     }
@@ -108,7 +185,7 @@
   "errors": {
     "allFieldsRequired": "Alle Felder sind erforderlich",
     "passwordTooShort": "Passwort muss mindestens 6 Zeichen haben",
-    "invalidPassword": "Ungültiges Zugangspasswort. Das Demo-Passwort wird automatisch nach der Registrierung in der AI Tribes-Community gewährt. Klicken Sie auf die Schaltfläche \"AI Tribes beitreten\" auf der linken Seite, registrieren Sie sich und kehren Sie dann mit dem erhaltenen Passwort hierher zurück.",
+    "invalidPassword": "Ungültiges Zugriffspasswort. Demo-Passwort wird automatisch nach der Registrierung bei der AI Tribes-Community gewährt. Klicken Sie auf die Schaltfläche \"AI Tribes beitreten\" auf der linken Seite, registrieren Sie sich und kehren Sie dann mit dem erhaltenen Passwort hierher zurück.",
     "validEmail": "Geben Sie eine gültige E-Mail-Adresse ein"
   },
   "loading": "Laden..."

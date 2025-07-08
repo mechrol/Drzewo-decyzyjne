@@ -17,7 +17,7 @@
     "loginTitle": "DOSTĘP DO GRY",
     "loginSubtitle": "Wprowadź hasło otrzymane po rejestracji w AI Tribes",
     "demoPassword": "HASŁO DEMO",
-    "passwordPlaceholder": "Wprowadź hasło otrzymane z AI Tribes...",
+    "passwordPlaceholder": "Wprowadź hasło otrzymane od AI Tribes...",
     "login": "ZALOGUJ",
     "logging": "LOGOWANIE...",
     "noPassword": "Nie masz hasła? Zarejestruj się w AI Tribes po lewej stronie.",
@@ -30,7 +30,7 @@
     "demoPasswordInfo": "🔐 Hasło demo zostanie automatycznie przyznane po dołączeniu do społeczności AI Tribes:",
     "aiTribesDescription": "Dołącz do społeczności AI Tribes poprzez rejestrację. Po rejestracji automatycznie otrzymasz hasło demo do gry.",
     "premiumDescription": "Kup subskrypcję premium i uzyskaj natychmiastowy dostęp do wszystkich funkcji gry bez ograniczeń.",
-    "registrationNote": "Po kliknięciu przycisku poniżej, zarejestruj się w AI Tribes, a hasło demo zostanie Ci automatycznie przyznane",
+    "registrationNote": "Po kliknięciu przycisku poniżej, zarejestruj się w AI Tribes, a hasło demo zostanie automatycznie przyznane",
     "steps": {
       "clickButton": "Kliknij przycisk \"Dołącz do AI Tribes\" powyżej",
       "register": "Zarejestruj się w społeczności AI Tribes",
@@ -61,30 +61,107 @@
       "balanceCauses": "• Zrównoważ przyczyny i skutki"
     },
     "points": {
-      "correctFactor": "• +10 punktów za każdy prawidłowy czynnik",
+      "correctFactor": "• +10 punktów za każdy poprawny czynnik",
       "balancedBranch": "• +50 punktów za zrównoważoną gałąź",
       "completeScenario": "• +100 punktów za ukończenie scenariusza",
       "maxScore": "• Maksymalny wynik: 270 punktów"
+    },
+    "ui": {
+      "back": "Powrót",
+      "reset": "Reset",
+      "points": "punktów",
+      "status": "Status",
+      "factors": "CZYNNIKI",
+      "availableFactors": "DOSTĘPNE CZYNNIKI",
+      "stationaryRetailPoints": "Sklepy detaliczne stacjonarne",
+      "value": "Wartość",
+      "onlineChannels": "Kanały online",
+      "internetSalesPlatforms": "Platformy sprzedaży internetowej",
+      "distributors": "Dystrybutorzy",
+      "intermediariesInSupplyChains": "Pośrednicy w łańcuchach dostaw",
+      "dragFactorHere": "Przeciągnij tutaj czynnik",
+      "remainingSlots": "4 miejsce pozostało",
+      "optimized": "Opt"
     }
   },
   "themes": {
     "forest": {
       "name": "Ekosystem Leśny",
-      "description": "Optymalizuj czynniki środowiskowe w lesie"
+      "description": "Optymalizuj czynniki środowiskowe w lesie",
+      "factors": {
+        "trees": "Drzewa",
+        "animals": "Zwierzęta",
+        "water": "Źródła wody",
+        "soil": "Jakość gleby",
+        "climate": "Warunki klimatyczne",
+        "biodiversity": "Bioróżnorodność",
+        "sunlight": "Światło słoneczne",
+        "nutrients": "Składniki odżywcze",
+        "predators": "Drapieżniki",
+        "herbivores": "Roślinożercy",
+        "decomposers": "Rozkładacze",
+        "pollinators": "Zapylacze"
+      },
+      "branches": {
+        "producers": "Producenci",
+        "primaryConsumers": "Konsumenci Pierwszego Rzędu",
+        "secondaryConsumers": "Konsumenci Drugiego Rzędu",
+        "decomposers": "Rozkładacze"
+      }
     },
     "startup": {
-      "name": "Startup Tech",
-      "description": "Buduj strategię technologicznego startupu"
+      "name": "Startup Technologiczny",
+      "description": "Zbuduj strategię startupu technologicznego",
+      "factors": {
+        "funding": "Finansowanie",
+        "team": "Zespół",
+        "product": "Produkt",
+        "market": "Badania rynku",
+        "technology": "Stos technologiczny",
+        "customers": "Baza klientów",
+        "competition": "Analiza konkurencji",
+        "marketing": "Strategia marketingowa",
+        "revenue": "Model przychodów",
+        "partnerships": "Partnerstwa strategiczne",
+        "scalability": "Skalowalność",
+        "innovation": "Innowacje"
+      },
+      "branches": {
+        "development": "Rozwój",
+        "marketing": "Marketing",
+        "operations": "Operacje",
+        "growth": "Wzrost"
+      }
     },
     "marketing": {
       "name": "Marketing Mix 4P",
-      "description": "Stwórz optymalny mix marketingowy"
+      "description": "Stwórz optymalny mix marketingowy",
+      "factors": {
+        "stationaryRetail": "Sklepy detaliczne stacjonarne",
+        "onlineChannels": "Kanały online",
+        "distributors": "Dystrybutorzy",
+        "promotion": "Kampanie promocyjne",
+        "advertising": "Reklama",
+        "publicRelations": "Public relations",
+        "salesPromotion": "Promocja sprzedaży",
+        "directMarketing": "Marketing bezpośredni",
+        "pricing": "Strategia cenowa",
+        "costBased": "Ceny oparte na kosztach",
+        "valueBased": "Ceny oparte na wartości",
+        "competitive": "Ceny konkurencyjne"
+      },
+      "branches": {
+        "distribution": "Dystrybucja",
+        "price": "Cena",
+        "product": "Produkt",
+        "promotion": "Promocja"
+      }
     }
   },
   "legal": {
     "eula": "EULA",
     "licenseAgreement": "UMOWA LICENCYJNA",
-    "endUserLicense": "Licencja Użytkownika Końcowego",
+    "endUserLicense": "Umowa Licencyjna Użytkownika Końcowego",
     "mainProvisions": "Główne postanowienia",
     "terms": "Warunki",
     "privacy": "Prywatność",

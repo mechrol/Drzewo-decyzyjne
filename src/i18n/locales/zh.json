@@ -3,7 +3,7 @@
     "title": "决策树",
     "subtitle": "策略游戏",
     "description": "🎮 通过在各种商业和生态场景中优化因子配置来发展您的战略思维技能",
-    "poweredBy": "Powered by HomoHumanicus Technology"
+    "poweredBy": "由HomoHumanicus技术驱动"
   },
   "auth": {
     "accessConditions": "访问条件",
@@ -29,7 +29,7 @@
     "logout": "登出",
     "demoPasswordInfo": "🔐 加入AI Tribes社区后将自动获得演示密码：",
     "aiTribesDescription": "通过注册加入AI Tribes社区。注册后，您将自动收到游戏的演示密码。",
-    "premiumDescription": "购买高级订阅，立即获得游戏所有功能的无限制访问权限。",
+    "premiumDescription": "购买高级订阅，立即获得所有游戏功能的无限制访问权限。",
     "registrationNote": "点击下面的按钮后，在AI Tribes注册，演示密码将自动授予您",
     "steps": {
       "clickButton": "点击上面的\"加入AI Tribes\"按钮",
@@ -64,7 +64,7 @@
       "correctFactor": "• 每个正确因子+10分",
       "balancedBranch": "• 平衡分支+50分",
       "completeScenario": "• 完成场景+100分",
-      "maxScore": "• 最高分数：270分"
+      "maxScore": "• 最高分：270分"
     }
   },
   "themes": {
@@ -102,13 +102,13 @@
       "nonExclusive": "游戏以非独占许可证提供",
       "noModification": "禁止修改源代码",
       "gdprProtection": "用户数据按照GDPR受到保护",
-      "revocable": "许可证可能在违规情况下被撤销"
+      "revocable": "违反时许可证可被撤销"
     }
   },
   "errors": {
     "allFieldsRequired": "所有字段都是必需的",
     "passwordTooShort": "密码必须至少6个字符",
-    "invalidPassword": "无效的访问密码。在AI Tribes社区注册后将自动获得演示密码。点击左侧的\"加入AI Tribes\"按钮，注册后带着收到的密码返回这里。",
+    "invalidPassword": "无效的访问密码。在AI Tribes社区注册后将自动获得演示密码。点击左侧的\"加入AI Tribes\"按钮，注册后返回这里使用收到的密码。",
     "validEmail": "输入有效的电子邮件地址"
   },
   "loading": "加载中..."

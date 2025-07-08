@@ -14,6 +14,8 @@ export const GameHeader: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4 lg:space-x-6">
+            {/* Language selector positioned before HomoHumanicus logo - Full variant for game page */}
+            <LanguageSelector variant="full" position="left" />
             <HomoHumanicusLogo size="sm" variant="horizontal" />
             <div className="border-l border-violet-500/30 pl-4 lg:pl-6">
               <div className="flex items-center space-x-3 lg:space-x-4">
@@ -32,7 +34,6 @@ export const GameHeader: React.FC = () => {
           </div>
           
           <div className="flex items-center space-x-3">
-            <LanguageSelector />
             <div className="hidden sm:flex items-center space-x-2 text-violet-300">
               <Shield className="w-4 h-4" />
               <span className="text-xs lg:text-sm font-medium">{t('legal.copyrightProtected')}</span>

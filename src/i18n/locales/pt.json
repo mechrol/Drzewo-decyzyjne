@@ -2,20 +2,20 @@
   "app": {
     "title": "ÁRVORE DE DECISÃO",
     "subtitle": "JOGO ESTRATÉGICO",
-    "description": "🎮 Desenvolva suas habilidades de pensamento estratégico otimizando o posicionamento de fatores em vários cenários comerciais e ecológicos",
-    "poweredBy": "Powered by HomoHumanicus Technology"
+    "description": "🎮 Desenvolva suas habilidades de pensamento estratégico otimizando a colocação de fatores em vários cenários empresariais e ecológicos",
+    "poweredBy": "Alimentado pela tecnologia HomoHumanicus"
   },
   "auth": {
     "accessConditions": "CONDIÇÕES DE ACESSO",
     "demoAccess": "ACESSO DEMO",
     "fullAccess": "ACESSO COMPLETO",
-    "free": "GRATUITO",
+    "free": "GRÁTIS",
     "premium": "PREMIUM",
     "aiTribes": "AI TRIBES",
     "premiumSubscription": "ASSINATURA PREMIUM",
-    "howToGetPassword": "COMO OBTER A SENHA",
+    "howToGetPassword": "COMO OBTER SENHA",
     "loginTitle": "ACESSO AO JOGO",
-    "loginSubtitle": "Digite a senha recebida após o registro no AI Tribes",
+    "loginSubtitle": "Digite a senha recebida após registro no AI Tribes",
     "demoPassword": "SENHA DEMO",
     "passwordPlaceholder": "Digite a senha recebida do AI Tribes...",
     "login": "ENTRAR",
@@ -27,26 +27,26 @@
     "joinAiTribes": "Juntar-se ao AI Tribes",
     "buyPremium": "Comprar Premium",
     "logout": "Sair",
-    "demoPasswordInfo": "🔐 A senha demo será concedida automaticamente após se juntar à comunidade AI Tribes:",
+    "demoPasswordInfo": "🔐 A senha demo será concedida automaticamente após juntar-se à comunidade AI Tribes:",
     "aiTribesDescription": "Junte-se à comunidade AI Tribes através do registro. Após o registro, você receberá automaticamente uma senha demo para o jogo.",
     "premiumDescription": "Compre uma assinatura premium e obtenha acesso instantâneo a todos os recursos do jogo sem limitações.",
-    "registrationNote": "Após clicar no botão abaixo, registre-se no AI Tribes, e a senha demo será concedida automaticamente",
+    "registrationNote": "Após clicar no botão abaixo, registre-se no AI Tribes e a senha demo será concedida automaticamente",
     "steps": {
       "clickButton": "Clique no botão \"Juntar-se ao AI Tribes\" acima",
       "register": "Registre-se na comunidade AI Tribes",
       "receivePassword": "Receba a senha demo automaticamente após o registro",
-      "returnAndLogin": "Volte aqui e faça login usando a senha recebida"
+      "returnAndLogin": "Retorne aqui e faça login usando a senha recebida"
     }
   },
   "game": {
     "chooseScenario": "ESCOLHER CENÁRIO DO JOGO",
-    "scenarioDescription": "🎯 Cada cenário oferece desafios estratégicos únicos. Otimize o posicionamento de fatores e maximize sua pontuação!",
+    "scenarioDescription": "🎯 Cada cenário oferece desafios estratégicos únicos. Otimize a colocação de fatores e maximize sua pontuação!",
     "startGame": "INICIAR JOGO",
     "howToPlay": "COMO JOGAR?",
     "gameGoal": "🎯 OBJETIVO DO JOGO",
     "scoring": "🏆 SISTEMA DE PONTUAÇÃO",
     "features": "RECURSOS DO JOGO",
-    "ranking": "Ranking",
+    "ranking": "Classificação",
     "security": "Segurança",
     "fastGame": "Jogo rápido",
     "achievements": "Conquistas",
@@ -57,12 +57,12 @@
     "goals": {
       "dragFactors": "• Arraste fatores para os ramos apropriados",
       "fourFactors": "• Cada ramo precisa de 4 fatores",
-      "balanceParts": "• Balance partes e totalidades",
-      "balanceCauses": "• Balance causas e efeitos"
+      "balanceParts": "• Equilibre partes e totalidades",
+      "balanceCauses": "• Equilibre causas e efeitos"
     },
     "points": {
       "correctFactor": "• +10 pontos para cada fator correto",
-      "balancedBranch": "• +50 pontos para ramo balanceado",
+      "balancedBranch": "• +50 pontos para ramo equilibrado",
       "completeScenario": "• +100 pontos para completar cenário",
       "maxScore": "• Pontuação máxima: 270 pontos"
     }
@@ -74,11 +74,11 @@
     },
     "startup": {
       "name": "Startup Tech",
-      "description": "Construa uma estratégia de startup tecnológico"
+      "description": "Construa estratégia de startup tecnológica"
     },
     "marketing": {
       "name": "Marketing Mix 4P",
-      "description": "Crie um mix de marketing ótimo"
+      "description": "Crie mix de marketing ótimo"
     }
   },
   "legal": {
@@ -100,15 +100,15 @@
     "copyrightProtected": "Protegido por direitos autorais",
     "provisions": {
       "nonExclusive": "O jogo é fornecido sob licença não exclusiva",
-      "noModification": "A modificação do código fonte é proibida",
-      "gdprProtection": "Os dados do usuário são protegidos de acordo com o GDPR",
-      "revocable": "A licença pode ser revogada em caso de violação"
+      "noModification": "Modificação do código fonte é proibida",
+      "gdprProtection": "Dados do usuário são protegidos de acordo com GDPR",
+      "revocable": "Licença pode ser revogada em caso de violação"
     }
   },
   "errors": {
     "allFieldsRequired": "Todos os campos são obrigatórios",
-    "passwordTooShort": "A senha deve ter pelo menos 6 caracteres",
-    "invalidPassword": "Senha de acesso inválida. A senha demo será concedida automaticamente após o registro na comunidade AI Tribes. Clique no botão \"Juntar-se ao AI Tribes\" no lado esquerdo, registre-se, depois volte aqui com a senha recebida.",
+    "passwordTooShort": "Senha deve ter pelo menos 6 caracteres",
+    "invalidPassword": "Senha de acesso inválida. A senha demo será concedida automaticamente após registro na comunidade AI Tribes. Clique no botão \"Juntar-se ao AI Tribes\" no lado esquerdo, registre-se e retorne aqui com a senha recebida.",
     "validEmail": "Digite um endereço de email válido"
   },
   "loading": "Carregando..."

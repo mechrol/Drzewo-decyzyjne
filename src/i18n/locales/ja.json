@@ -3,7 +3,7 @@
     "title": "決定木",
     "subtitle": "戦略ゲーム",
     "description": "🎮 様々なビジネスや生態系シナリオで要因配置を最適化することで戦略的思考スキルを向上させましょう",
-    "poweredBy": "Powered by HomoHumanicus Technology"
+    "poweredBy": "HomoHumanicus技術により駆動"
   },
   "auth": {
     "accessConditions": "アクセス条件",
@@ -28,8 +28,8 @@
     "buyPremium": "プレミアムを購入",
     "logout": "ログアウト",
     "demoPasswordInfo": "🔐 AI Tribesコミュニティに参加後、デモパスワードが自動的に付与されます：",
-    "aiTribesDescription": "登録によりAI Tribesコミュニティに参加してください。登録後、ゲームのデモパスワードが自動的に送られます。",
-    "premiumDescription": "プレミアム購読を購入して、制限なしでゲームのすべての機能に即座にアクセスできます。",
+    "aiTribesDescription": "登録によりAI Tribesコミュニティに参加してください。登録後、ゲーム用のデモパスワードが自動的に送信されます。",
+    "premiumDescription": "プレミアム購読を購入して、制限なしですべてのゲーム機能への即座のアクセスを取得してください。",
     "registrationNote": "下のボタンをクリックした後、AI Tribesに登録すると、デモパスワードが自動的に付与されます",
     "steps": {
       "clickButton": "上の「AI Tribesに参加」ボタンをクリック",
@@ -102,12 +102,12 @@
       "nonExclusive": "ゲームは非独占ライセンスで提供",
       "noModification": "ソースコードの変更は禁止",
       "gdprProtection": "ユーザーデータはGDPRに従って保護",
-      "revocable": "違反の場合、ライセンスは取り消される可能性"
+      "revocable": "違反時にライセンスは取り消し可能"
     }
   },
   "errors": {
     "allFieldsRequired": "すべてのフィールドが必要です",
-    "passwordTooShort": "パスワードは少なくとも6文字である必要があります",
+    "passwordTooShort": "パスワードは最低6文字必要です",
     "invalidPassword": "無効なアクセスパスワード。AI Tribesコミュニティに登録後、デモパスワードが自動的に付与されます。左側の「AI Tribesに参加」ボタンをクリックして登録し、受け取ったパスワードでここに戻ってください。",
     "validEmail": "有効なメールアドレスを入力してください"
   },

@@ -3,7 +3,7 @@
     "title": "ARBRE DE DÉCISION",
     "subtitle": "JEU STRATÉGIQUE",
     "description": "🎮 Développez vos compétences de pensée stratégique en optimisant le placement des facteurs dans divers scénarios commerciaux et écologiques",
-    "poweredBy": "Powered by HomoHumanicus Technology"
+    "poweredBy": "Alimenté par la technologie HomoHumanicus"
   },
   "auth": {
     "accessConditions": "CONDITIONS D'ACCÈS",
@@ -13,24 +13,24 @@
     "premium": "PREMIUM",
     "aiTribes": "AI TRIBES",
     "premiumSubscription": "ABONNEMENT PREMIUM",
-    "howToGetPassword": "COMMENT OBTENIR LE MOT DE PASSE",
+    "howToGetPassword": "COMMENT OBTENIR UN MOT DE PASSE",
     "loginTitle": "ACCÈS AU JEU",
     "loginSubtitle": "Entrez le mot de passe reçu après inscription à AI Tribes",
     "demoPassword": "MOT DE PASSE DÉMO",
     "passwordPlaceholder": "Entrez le mot de passe reçu d'AI Tribes...",
-    "login": "SE CONNECTER",
+    "login": "CONNEXION",
     "logging": "CONNEXION...",
-    "noPassword": "Pas de mot de passe ? Inscrivez-vous à AI Tribes sur le côté gauche.",
+    "noPassword": "Vous n'avez pas de mot de passe ? Inscrivez-vous à AI Tribes sur le côté gauche.",
     "secureLogin": "🔒 Connexion sécurisée",
     "quickAccess": "⚡ Accès rapide",
     "demoVersion": "🎮 Version démo",
     "joinAiTribes": "Rejoindre AI Tribes",
     "buyPremium": "Acheter Premium",
-    "logout": "Se déconnecter",
-    "demoPasswordInfo": "🔐 Le mot de passe démo sera accordé automatiquement après avoir rejoint la communauté AI Tribes :",
+    "logout": "Déconnexion",
+    "demoPasswordInfo": "🔐 Le mot de passe démo sera automatiquement accordé après avoir rejoint la communauté AI Tribes :",
     "aiTribesDescription": "Rejoignez la communauté AI Tribes par inscription. Après inscription, vous recevrez automatiquement un mot de passe démo pour le jeu.",
     "premiumDescription": "Achetez un abonnement premium et obtenez un accès instantané à toutes les fonctionnalités du jeu sans limitations.",
-    "registrationNote": "Après avoir cliqué sur le bouton ci-dessous, inscrivez-vous à AI Tribes, et le mot de passe démo vous sera automatiquement accordé",
+    "registrationNote": "Après avoir cliqué sur le bouton ci-dessous, inscrivez-vous à AI Tribes et le mot de passe démo vous sera automatiquement accordé",
     "steps": {
       "clickButton": "Cliquez sur le bouton \"Rejoindre AI Tribes\" ci-dessus",
       "register": "Inscrivez-vous dans la communauté AI Tribes",
@@ -57,8 +57,8 @@
     "goals": {
       "dragFactors": "• Faites glisser les facteurs vers les branches appropriées",
       "fourFactors": "• Chaque branche a besoin de 4 facteurs",
-      "balanceParts": "• Équilibrez les parties et les ensembles",
-      "balanceCauses": "• Équilibrez les causes et les effets"
+      "balanceParts": "• Équilibrer les parties et les ensembles",
+      "balanceCauses": "• Équilibrer les causes et les effets"
     },
     "points": {
       "correctFactor": "• +10 points pour chaque facteur correct",
@@ -70,15 +70,15 @@
   "themes": {
     "forest": {
       "name": "Écosystème Forestier",
-      "description": "Optimisez les facteurs environnementaux dans la forêt"
+      "description": "Optimiser les facteurs environnementaux en forêt"
     },
     "startup": {
       "name": "Startup Tech",
-      "description": "Construisez une stratégie de startup technologique"
+      "description": "Construire une stratégie de startup technologique"
     },
     "marketing": {
       "name": "Marketing Mix 4P",
-      "description": "Créez un mix marketing optimal"
+      "description": "Créer un mix marketing optimal"
     }
   },
   "legal": {
@@ -108,7 +108,7 @@
   "errors": {
     "allFieldsRequired": "Tous les champs sont requis",
     "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
-    "invalidPassword": "Mot de passe d'accès invalide. Le mot de passe démo sera accordé automatiquement après inscription dans la communauté AI Tribes. Cliquez sur le bouton \"Rejoindre AI Tribes\" sur le côté gauche, inscrivez-vous, puis revenez ici avec le mot de passe reçu.",
+    "invalidPassword": "Mot de passe d'accès invalide. Le mot de passe démo sera automatiquement accordé après inscription dans la communauté AI Tribes. Cliquez sur le bouton \"Rejoindre AI Tribes\" sur le côté gauche, inscrivez-vous, puis revenez ici avec le mot de passe reçu.",
     "validEmail": "Entrez une adresse e-mail valide"
   },
   "loading": "Chargement..."

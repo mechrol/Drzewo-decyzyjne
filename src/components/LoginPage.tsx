@@ -85,9 +85,9 @@ export const LoginPage: React.FC = () => {
         ))}
       </div>
 
-      {/* Language Selector - Fixed Position */}
+      {/* Language Selector - Fixed Position Top Right */}
       <div className="fixed top-4 right-4 z-50">
-        <LanguageSelector />
+        <LanguageSelector variant="compact" position="right" />
       </div>
 
       {/* Main Content Container - Mobile Optimized */}

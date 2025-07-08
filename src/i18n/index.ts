@@ -1,8 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
 
-// Import translations
+// Import language files
 import en from './locales/en.json';
 import pl from './locales/pl.json';
 import de from './locales/de.json';
@@ -13,9 +12,24 @@ import pt from './locales/pt.json';
 import ru from './locales/ru.json';
 import zh from './locales/zh.json';
 import ja from './locales/ja.json';
-import ar from './locales/ar.json';
 import hi from './locales/hi.json';
 import id from './locales/id.json';
+
+// Get preferred language from localStorage or default to 'en'
+const getInitialLanguage = () => {
+  const saved = localStorage.getItem('preferredLanguage');
+  if (saved && ['en', 'pl', 'de', 'fr', 'es', 'it', 'pt', 'ru', 'zh', 'ja', 'hi', 'id'].includes(saved)) {
+    return saved;
+  }
+  
+  // Try to detect browser language
+  const browserLang = navigator.language.split('-')[0];
+  if (['en', 'pl', 'de', 'fr', 'es', 'it', 'pt', 'ru', 'zh', 'ja', 'hi', 'id'].includes(browserLang)) {
+    return browserLang;
+  }
+  
+  return 'en'; // fallback
+};
 
 const resources = {
   en: { translation: en },
@@ -28,46 +42,38 @@ const resources = {
   ru: { translation: ru },
   zh: { translation: zh },
   ja: { translation: ja },
-  ar: { translation: ar },
   hi: { translation: hi },
   id: { translation: id }
 };
 
-const initI18n = async () => {
-  try {
-    await i18n
-      .use(LanguageDetector)
-      .use(initReactI18next)
-      .init({
-        resources,
-        fallbackLng: 'en',
-        debug: true, // Enable debug mode temporarily
-        
-        detection: {
-          order: ['localStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
-          caches: ['localStorage'],
-          lookupLocalStorage: 'i18nextLng',
-          checkWhitelist: true
-        },
-
-        interpolation: {
-          escapeValue: false
-        },
-
-        react: {
-          useSuspense: false // Disable suspense to avoid blocking
-        }
-      });
+i18n
+  .use(initReactI18next)
+  .init({
+    resources,
+    lng: getInitialLanguage(),
+    fallbackLng: 'en',
     
-    console.log('i18n initialized successfully');
-    console.log('Current language:', i18n.language);
-    console.log('Available languages:', Object.keys(resources));
-  } catch (error) {
-    console.error('Failed to initialize i18n:', error);
-  }
-};
+    interpolation: {
+      escapeValue: false
+    },
 
-// Initialize i18n
-initI18n();
+    react: {
+      useSuspense: false
+    },
+
+    // Save language preference when changed
+    saveMissing: false,
+    
+    detection: {
+      order: ['localStorage', 'navigator'],
+      caches: ['localStorage']
+    }
+  });
+
+// Listen for language changes and save to localStorage
+i18n.on('languageChanged', (lng) => {
+  localStorage.setItem('preferredLanguage', lng);
+  console.log('Language changed and saved:', lng);
+});
 
 export default i18n;
